@@ -1,0 +1,10 @@
+/* 
+  Localization.strings
+  WXCore
+
+  Created by 朱洪伟 on 15/11/1.
+  Copyright © 2015年 Zhu Hong Wei. All rights reserved.
+*/
+
+"Loading..." = "数据加载中...";
+"Updating..." = "加载更多数据...";

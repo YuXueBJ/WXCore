@@ -13,8 +13,11 @@
     self = [super init];
     if (self) {
         self.title = [object objectForKey:@"title"];
-        self.subTitle = [object objectForKey:@"sub_tiel"];
-        self.imageUrl = [object objectForKey:@"url"];
+        self.subTitle = [object objectForKey:@"sub_title"];
+        self.imageUrl = [object objectForKey:@"imgUrl"];
+        
+        NSNumber * temp = [object objectForKey:@"sub_Type"];
+        self.inputStype = [temp integerValue];
     }
     return self;
 }

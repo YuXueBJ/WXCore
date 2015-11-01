@@ -133,18 +133,16 @@
  */
 - (void)emptyViewButtonAction;
 
-/**
- * 状态显示
- */
-
+//状态显示
+/**展示空页面*/
 - (void)showEmpty:(BOOL)show;
+/**展示加载转态*/
 - (void)showLoading:(BOOL)show;
+/*展示错误页面*/
 - (void)showError:(BOOL)show;
 /**
  * 搜索
  */
-
 - (void)search:(NSString*)kw;
 - (void)cancelSearch;
-
 @end

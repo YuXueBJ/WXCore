@@ -50,7 +50,7 @@
     }
     self.backgroundColor = [UIColor clearColor];
     self.contentView.backgroundColor = [UIColor clearColor];
-    self.selectionStyle = UITableViewCellSelectionStyleNone;
+    self.selectionStyle = UITableViewCellSelectionStyleGray;
     
     WXHomeTableViewItem * item = (WXHomeTableViewItem*)object;
     WXHomeTableViewObject * data = item.home_Object;
@@ -63,7 +63,7 @@
 -(void)layoutSubviews
 {
     [super layoutSubviews];
-   self.titleLable.frame = CGRectMake(10, 10, self.width-40, 20);
+   self.titleLable.frame = CGRectMake(30, 10, self.width-40, 20);
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

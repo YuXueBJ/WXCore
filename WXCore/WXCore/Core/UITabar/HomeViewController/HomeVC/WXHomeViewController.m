@@ -8,9 +8,11 @@
 
 #import "WXHomeViewController.h"
 #import "WXHomeViewDataSource.h"
+#import "WXHomeTableViewItem.h"
+#import "WXHomeTableViewObject.h"
+#import "ColleagueViewController.h"
 
 @interface WXHomeViewController ()
-//@property (nonatomic,strong)WXHomeViewDataSource * dataSource;
 @property (nonatomic,assign)NSInteger requestPage;
 @property (nonatomic,strong)NSMutableArray * dataSourceArray;
 @end
@@ -28,9 +30,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.dataSource = [[WXHomeViewDataSource alloc] init];
 
+    self.title = @"首页";
+
+    self.dataSource = [[WXHomeViewDataSource alloc] init];
     
     self.tableView.backgroundColor = [UIColor whiteColor];
     self.tableView.showsPullToRefresh =YES;
@@ -38,8 +41,9 @@
     self.emptyView.userInteractionEnabled = NO;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     self.tableView.frame = CGRectMake(0, 65, self.view.width, self.view.height-65);
+    
     [self.dataSourceArray addObjectsFromArray:[self testRequstData]];
-
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -91,7 +95,7 @@
         [self showEmpty:NO];
     }
     //RequestSuccess
-    if (1) {
+    if (/* DISABLES CODE */ (1)) {
         [(WXHomeViewDataSource*)self.dataSource reloadHomeTableViewData:self.dataSourceArray];
         [self.tableView reloadData];
     }else{
@@ -100,6 +104,26 @@
         [self.tableView reloadData];
     }
     //}
+    
+}
+- (void)didSelectObject:(id)object atIndexPath:(NSIndexPath *)indexPath
+{
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    WXHomeTableViewItem * item = (WXHomeTableViewItem*)object;
+    WXHomeTableViewObject * data = item.home_Object;
+    
+    switch (data.inputStype) {
+        case HomeTableViewStyle_Colleague:{
+            
+            ColleagueViewController * colleagyeVC = [[ColleagueViewController alloc] init];
+            [self.navigationController pushViewController:colleagyeVC animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
     
 }
 
@@ -125,9 +149,37 @@
     
     return list;
 }
-- (NSString*)testJson
-{
-    NSString * str = @"{\"array\":[{\"title\":\"测试\",\"sub_tiel\":\"1\",\"url\":\"\"},{\"title\":\"测试2\",\"sub_tiel\":\"1\",\"url\":\"\"},{\"title\":\"测试3\",\"sub_tiel\":\"1\",\"url\":\"\"},{\"title\":\"测试4\",\"sub_tiel\":\"1\",\"url\":\"\"},{\"title\":\"测试5\",\"sub_tiel\":\"1\",\"url\":\"\"}],\"string\":\"Hello World\"}";
+- (NSString*)testJson{
+    
+    NSString * str = @"{\"array\":[{\"title\":\"通讯录\",\"sub_title\":\"通讯录显示添加编辑\",\"imgUrl\":\"\",\"sub_Type\":1},{\"title\":\"测试\",\"sub_title\":\"通讯录显示添加编辑\",\"imgUrl\":\"\",\"sub_Type\":1},{\"title\":\"测试\",\"sub_title\":\"通讯录显示添加编辑\",\"imgUrl\":\"\",\"sub_Type\":1}],\"string\":\"Hello World\"}";
+    
     return str;
+/*
+ 
+ {
+ "array": [
+ {
+ "title": "通讯录",
+ "sub_title": "通讯录显示添加编辑",
+ "imgUrl": "",
+ "sub_Type":1
+ },
+ {
+ "title": "测试",
+ "sub_title": "通讯录显示添加编辑",
+ "imgUrl": "",
+ "sub_Type":1
+ },
+ {
+ "title": "测试",
+ "sub_title": "通讯录显示添加编辑",
+ "imgUrl": "",
+ "sub_Type":1
+ }
+ ],
+ "string": "Hello World"
+ }
+ 
+ */
 }
 @end

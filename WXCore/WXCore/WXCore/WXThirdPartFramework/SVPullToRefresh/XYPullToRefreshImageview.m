@@ -35,16 +35,16 @@
     
 }
 -(void)setArrowTransform:(BOOL)isUp{
-//    [UIView beginAnimations:nil context:nil];
-//    [UIView setAnimationDuration:0.1];
-//    //[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-//    CGAffineTransform at = CGAffineTransformIdentity;//CGAffineTransformMakeRotation(M_PI*progress/10);
-//    if (isUp) {
-//        at = CGAffineTransformMakeRotation(M_PI);
-//    }
-//    [_arrowImageView setTransform:at];
-//    [UIView setAnimationTransition:UIViewAnimationTransitionNone forView:_arrowImageView cache:YES];
-//    [UIView commitAnimations];
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.1];
+    //[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    CGAffineTransform at = CGAffineTransformIdentity;//CGAffineTransformMakeRotation(M_PI*progress/10);
+    if (isUp) {
+        at = CGAffineTransformMakeRotation(M_PI);
+    }
+    [_arrowImageView setTransform:at];
+    [UIView setAnimationTransition:UIViewAnimationTransitionNone forView:_arrowImageView cache:YES];
+    [UIView commitAnimations];
 }
 -(void)setPullProgress:(float)progress{
 

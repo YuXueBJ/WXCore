@@ -227,22 +227,18 @@
 
 -(void)doFitTableViewNoRefresh:(UIScrollView*)tab
 {
-    UIImage * image = [UIImage imageNamed:@"refresh_bg"];
+    UIImage * image = [UIImage imageNamed:@"blueCircle"];
     UIImageView * bkTableView = [[UIImageView alloc] initWithImage:[image stretchableImageWithLeftCapWidth:image.size.width/2 topCapHeight:5]];
     bkTableView.frame = CGRectMake(0, 0, PHONE_SCREEN_SIZE.width, PHONE_SCREEN_SIZE.height);
-    
-    
     [bkTableView setCenter:CGPointMake(160, -PHONE_SCREEN_SIZE.height/2)];
-    [tab addSubview:bkTableView];
+//    [tab addSubview:bkTableView];
 }
 
--(void)doFitTableViewNoMore:(UIScrollView*)tab
-{
-    UIImage * image = [UIImage imageNamed:@"refresh_bg"];
+-(void)doFitTableViewNoMore:(UIScrollView*)tab{
+    
+    UIImage * image = [UIImage imageNamed:@"blueCircle"];
     UIImageView * bkTableView = [[UIImageView alloc] initWithImage:[image stretchableImageWithLeftCapWidth:image.size.width/2 topCapHeight:5]];
     bkTableView.frame = CGRectMake(0, PHONE_SCREEN_SIZE.height, PHONE_SCREEN_SIZE.width, PHONE_SCREEN_SIZE.height);
-    
-    
     [bkTableView setCenter:CGPointMake(160, PHONE_SCREEN_SIZE.height +PHONE_SCREEN_SIZE.height/2)];
     [tab addSubview:bkTableView];
 }
@@ -342,7 +338,7 @@
         UIView *loadingTextView = [[UIView alloc] initWithFrame:self.view.bounds];
         loadingTextView.backgroundColor = [UIColor clearColor];
         
-        UIImage *loadImage = [UIImage imageNamed:@"pull_refresh"];
+        UIImage *loadImage = [UIImage imageNamed:@"blueCircle"];
         UIImageView *loadImageView = [[UIImageView alloc] initWithImage:loadImage];
         
         UIEdgeInsets currentEdge =   [_dataSource emptyViewEdgeInsets];

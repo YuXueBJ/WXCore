@@ -17,11 +17,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        
         // Initialization code
         _grayAngleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1, frame.size.width, frame.size.height)];
         [_grayAngleImageView setImage:[UIImage imageNamed:@"grayAngle.png"]];
-       // [self addSubview:_grayAngleImageView];
+        [self addSubview:_grayAngleImageView];
         
         _grayCircle = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
         [_grayCircle setImage:[UIImage imageNamed:@"grayCircle.png"]];
@@ -36,7 +35,7 @@
         _blueAngleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1, frame.size.width, frame.size.height)];
         [_blueAngleImageView setImage:[UIImage imageNamed:@"blueAngle.png"]];
         _blueAngleImageView.hidden = YES;
-        //[self addSubview:_blueAngleImageView];
+        [self addSubview:_blueAngleImageView];
         
         
         _blueCircle = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
