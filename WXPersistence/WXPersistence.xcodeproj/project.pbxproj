@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1EA64391BF4D4470050C839 /* NSObjectAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64381BF4D4470050C839 /* NSObjectAddition.m */; };
+		A1EA643B1BF4D48E0050C839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EA643A1BF4D48E0050C839 /* Foundation.framework */; };
+		A1EA644C1BF4D5660050C839 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64421BF4D5660050C839 /* FMDatabase.m */; };
+		A1EA644D1BF4D5660050C839 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64441BF4D5660050C839 /* FMDatabaseAdditions.m */; };
+		A1EA644E1BF4D5660050C839 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64461BF4D5660050C839 /* FMDatabasePool.m */; };
+		A1EA644F1BF4D5660050C839 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64481BF4D5660050C839 /* FMDatabaseQueue.m */; };
+		A1EA64501BF4D5660050C839 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA644B1BF4D5660050C839 /* FMResultSet.m */; };
+		A1EA64531BF4D5B20050C839 /* WSPersistenceObjectVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64521BF4D5B20050C839 /* WSPersistenceObjectVersion.m */; };
+		A1EA64561BF4D5D40050C839 /* WSPersistenceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64551BF4D5D40050C839 /* WSPersistenceContext.m */; };
+		A1EA64591BF4D63E0050C839 /* WSPersistenceObjectProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64581BF4D63E0050C839 /* WSPersistenceObjectProperty.m */; };
+		A1EA645C1BF4D7670050C839 /* WSPersistenceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA645B1BF4D7670050C839 /* WSPersistenceObject.m */; };
+		A1EA645F1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA645E1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m */; };
+		A1EA64621BF4D87D0050C839 /* WSPersistenceSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64611BF4D87D0050C839 /* WSPersistenceSequence.m */; };
+		A1EA64651BF4D9460050C839 /* WSPersistenceService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64641BF4D9460050C839 /* WSPersistenceService.m */; };
+		A1EA64681BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64671BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m */; };
+		A1EA646B1BF4DC100050C839 /* WSPersistenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA646A1BF4DC100050C839 /* WSPersistenceUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1EA64281BF4D3EE0050C839 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1EA642A1BF4D3EE0050C839 /* libWXPersistence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWXPersistence.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EA64371BF4D4470050C839 /* NSObjectAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAddition.h; sourceTree = "<group>"; };
+		A1EA64381BF4D4470050C839 /* NSObjectAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAddition.m; sourceTree = "<group>"; };
+		A1EA643A1BF4D48E0050C839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1EA643E1BF4D5300050C839 /* WSPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistence.h; sourceTree = "<group>"; };
+		A1EA64411BF4D5660050C839 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A1EA64421BF4D5660050C839 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A1EA64431BF4D5660050C839 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A1EA64441BF4D5660050C839 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A1EA64451BF4D5660050C839 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A1EA64461BF4D5660050C839 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A1EA64471BF4D5660050C839 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A1EA64481BF4D5660050C839 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A1EA64491BF4D5660050C839 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A1EA644A1BF4D5660050C839 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A1EA644B1BF4D5660050C839 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A1EA64511BF4D5B20050C839 /* WSPersistenceObjectVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectVersion.h; sourceTree = "<group>"; };
+		A1EA64521BF4D5B20050C839 /* WSPersistenceObjectVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectVersion.m; sourceTree = "<group>"; };
+		A1EA64541BF4D5D40050C839 /* WSPersistenceContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceContext.h; sourceTree = "<group>"; };
+		A1EA64551BF4D5D40050C839 /* WSPersistenceContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceContext.m; sourceTree = "<group>"; };
+		A1EA64571BF4D63E0050C839 /* WSPersistenceObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectProperty.h; sourceTree = "<group>"; };
+		A1EA64581BF4D63E0050C839 /* WSPersistenceObjectProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectProperty.m; sourceTree = "<group>"; };
+		A1EA645A1BF4D7670050C839 /* WSPersistenceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObject.h; sourceTree = "<group>"; };
+		A1EA645B1BF4D7670050C839 /* WSPersistenceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObject.m; sourceTree = "<group>"; };
+		A1EA645D1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectMateInfo.h; sourceTree = "<group>"; };
+		A1EA645E1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectMateInfo.m; sourceTree = "<group>"; };
+		A1EA64601BF4D87D0050C839 /* WSPersistenceSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceSequence.h; sourceTree = "<group>"; };
+		A1EA64611BF4D87D0050C839 /* WSPersistenceSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceSequence.m; sourceTree = "<group>"; };
+		A1EA64631BF4D9460050C839 /* WSPersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceService.h; sourceTree = "<group>"; };
+		A1EA64641BF4D9460050C839 /* WSPersistenceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceService.m; sourceTree = "<group>"; };
+		A1EA64661BF4DBBF0050C839 /* WSPersistenceTableUpgrader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceTableUpgrader.h; sourceTree = "<group>"; };
+		A1EA64671BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceTableUpgrader.m; sourceTree = "<group>"; };
+		A1EA64691BF4DC100050C839 /* WSPersistenceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceUtil.h; sourceTree = "<group>"; };
+		A1EA646A1BF4DC100050C839 /* WSPersistenceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EA64271BF4D3EE0050C839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA643B1BF4D48E0050C839 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1EA64211BF4D3EE0050C839 = {
+			isa = PBXGroup;
+			children = (
+				A1EA64361BF4D40E0050C839 /* Frameworks */,
+				A1EA642C1BF4D3EE0050C839 /* WXPersistence */,
+				A1EA642B1BF4D3EE0050C839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EA642B1BF4D3EE0050C839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA642A1BF4D3EE0050C839 /* libWXPersistence.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EA642C1BF4D3EE0050C839 /* WXPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA643C1BF4D50B0050C839 /* FMDB */,
+				A1EA643D1BF4D50B0050C839 /* Persistence */,
+				A1EA64371BF4D4470050C839 /* NSObjectAddition.h */,
+				A1EA64381BF4D4470050C839 /* NSObjectAddition.m */,
+			);
+			path = WXPersistence;
+			sourceTree = "<group>";
+		};
+		A1EA64361BF4D40E0050C839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA643A1BF4D48E0050C839 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1EA643C1BF4D50B0050C839 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA64411BF4D5660050C839 /* FMDatabase.h */,
+				A1EA64421BF4D5660050C839 /* FMDatabase.m */,
+				A1EA64431BF4D5660050C839 /* FMDatabaseAdditions.h */,
+				A1EA64441BF4D5660050C839 /* FMDatabaseAdditions.m */,
+				A1EA64451BF4D5660050C839 /* FMDatabasePool.h */,
+				A1EA64461BF4D5660050C839 /* FMDatabasePool.m */,
+				A1EA64471BF4D5660050C839 /* FMDatabaseQueue.h */,
+				A1EA64481BF4D5660050C839 /* FMDatabaseQueue.m */,
+				A1EA64491BF4D5660050C839 /* FMDB.h */,
+				A1EA644A1BF4D5660050C839 /* FMResultSet.h */,
+				A1EA644B1BF4D5660050C839 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A1EA643D1BF4D50B0050C839 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA643E1BF4D5300050C839 /* WSPersistence.h */,
+				A1EA64541BF4D5D40050C839 /* WSPersistenceContext.h */,
+				A1EA64551BF4D5D40050C839 /* WSPersistenceContext.m */,
+				A1EA645A1BF4D7670050C839 /* WSPersistenceObject.h */,
+				A1EA645B1BF4D7670050C839 /* WSPersistenceObject.m */,
+				A1EA645D1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.h */,
+				A1EA645E1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m */,
+				A1EA64571BF4D63E0050C839 /* WSPersistenceObjectProperty.h */,
+				A1EA64581BF4D63E0050C839 /* WSPersistenceObjectProperty.m */,
+				A1EA64511BF4D5B20050C839 /* WSPersistenceObjectVersion.h */,
+				A1EA64521BF4D5B20050C839 /* WSPersistenceObjectVersion.m */,
+				A1EA64601BF4D87D0050C839 /* WSPersistenceSequence.h */,
+				A1EA64611BF4D87D0050C839 /* WSPersistenceSequence.m */,
+				A1EA64631BF4D9460050C839 /* WSPersistenceService.h */,
+				A1EA64641BF4D9460050C839 /* WSPersistenceService.m */,
+				A1EA64661BF4DBBF0050C839 /* WSPersistenceTableUpgrader.h */,
+				A1EA64671BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m */,
+				A1EA64691BF4DC100050C839 /* WSPersistenceUtil.h */,
+				A1EA646A1BF4DC100050C839 /* WSPersistenceUtil.m */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1EA64291BF4D3EE0050C839 /* WXPersistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EA64331BF4D3EE0050C839 /* Build configuration list for PBXNativeTarget "WXPersistence" */;
+			buildPhases = (
+				A1EA64261BF4D3EE0050C839 /* Sources */,
+				A1EA64271BF4D3EE0050C839 /* Frameworks */,
+				A1EA64281BF4D3EE0050C839 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXPersistence;
+			productName = WXPersistence;
+			productReference = A1EA642A1BF4D3EE0050C839 /* libWXPersistence.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EA64221BF4D3EE0050C839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "朱洪伟";
+				TargetAttributes = {
+					A1EA64291BF4D3EE0050C839 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A1EA64251BF4D3EE0050C839 /* Build configuration list for PBXProject "WXPersistence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1EA64211BF4D3EE0050C839;
+			productRefGroup = A1EA642B1BF4D3EE0050C839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EA64291BF4D3EE0050C839 /* WXPersistence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EA64261BF4D3EE0050C839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA64501BF4D5660050C839 /* FMResultSet.m in Sources */,
+				A1EA644F1BF4D5660050C839 /* FMDatabaseQueue.m in Sources */,
+				A1EA64391BF4D4470050C839 /* NSObjectAddition.m in Sources */,
+				A1EA645F1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m in Sources */,
+				A1EA646B1BF4DC100050C839 /* WSPersistenceUtil.m in Sources */,
+				A1EA64531BF4D5B20050C839 /* WSPersistenceObjectVersion.m in Sources */,
+				A1EA644E1BF4D5660050C839 /* FMDatabasePool.m in Sources */,
+				A1EA64621BF4D87D0050C839 /* WSPersistenceSequence.m in Sources */,
+				A1EA64561BF4D5D40050C839 /* WSPersistenceContext.m in Sources */,
+				A1EA645C1BF4D7670050C839 /* WSPersistenceObject.m in Sources */,
+				A1EA644C1BF4D5660050C839 /* FMDatabase.m in Sources */,
+				A1EA64591BF4D63E0050C839 /* WSPersistenceObjectProperty.m in Sources */,
+				A1EA64651BF4D9460050C839 /* WSPersistenceService.m in Sources */,
+				A1EA64681BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m in Sources */,
+				A1EA644D1BF4D5660050C839 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1EA64311BF4D3EE0050C839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1EA64321BF4D3EE0050C839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1EA64341BF4D3EE0050C839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1EA64351BF4D3EE0050C839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EA64251BF4D3EE0050C839 /* Build configuration list for PBXProject "WXPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EA64311BF4D3EE0050C839 /* Debug */,
+				A1EA64321BF4D3EE0050C839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EA64331BF4D3EE0050C839 /* Build configuration list for PBXNativeTarget "WXPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EA64341BF4D3EE0050C839 /* Debug */,
+				A1EA64351BF4D3EE0050C839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EA64221BF4D3EE0050C839 /* Project object */;
+}

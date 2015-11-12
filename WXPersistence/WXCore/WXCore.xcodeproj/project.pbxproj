@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1EA647B1BF4DFAC0050C839 /* libWXPersistence.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EA647A1BF4DF960050C839 /* libWXPersistence.a */; };
-		E481EC9A1BD7E6B900AF8215 /* WXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E481EC991BD7E6B900AF8215 /* WXHomeViewController.m */; };
-		E481EC9D1BD7E6C800AF8215 /* WXUserInfoViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E481EC9C1BD7E6C800AF8215 /* WXUserInfoViewcontroller.m */; };
-		E481ECA31BD7E8F200AF8215 /* WXHomeViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E481ECA21BD7E8F200AF8215 /* WXHomeViewDataSource.m */; };
-		E481ECA61BD7E94900AF8215 /* WXHomeTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E481ECA51BD7E94900AF8215 /* WXHomeTableViewItem.m */; };
-		E481ECAB1BD7F05400AF8215 /* NSObjectAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E481ECAA1BD7F05400AF8215 /* NSObjectAddition.m */; };
+		E481EC9A1BD7E6B900AF8215 /* WXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E481EC991BD7E6B900AF8215 /* WXHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E481EC9D1BD7E6C800AF8215 /* WXUserInfoViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E481EC9C1BD7E6C800AF8215 /* WXUserInfoViewcontroller.m */; settings = {ASSET_TAGS = (); }; };
+		E481ECA31BD7E8F200AF8215 /* WXHomeViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E481ECA21BD7E8F200AF8215 /* WXHomeViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		E481ECA61BD7E94900AF8215 /* WXHomeTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E481ECA51BD7E94900AF8215 /* WXHomeTableViewItem.m */; settings = {ASSET_TAGS = (); }; };
+		E481ECAB1BD7F05400AF8215 /* NSObjectAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E481ECAA1BD7F05400AF8215 /* NSObjectAddition.m */; settings = {ASSET_TAGS = (); }; };
 		E48336BC1B7469B800288616 /* UIButton+Blcok.m in Sources */ = {isa = PBXBuildFile; fileRef = E48336BB1B7469B800288616 /* UIButton+Blcok.m */; };
 		E48336CA1B7469F700288616 /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E48336C51B7469F700288616 /* RIButtonItem.m */; };
 		E48336CB1B7469F700288616 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E48336C71B7469F700288616 /* UIActionSheet+Blocks.m */; };
@@ -39,47 +38,33 @@
 		E4B7F88F1B4E357400091C53 /* WXErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F88E1B4E357400091C53 /* WXErrorView.m */; };
 		E4B7F8921B4E35BE00091C53 /* WXBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F8911B4E35BE00091C53 /* WXBaseTableView.m */; };
 		E4B7F8951B4E35D900091C53 /* WXGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F8941B4E35D900091C53 /* WXGifImage.m */; };
-		E4D2A2791BDB38A100499CCF /* WXSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2781BDB38A100499CCF /* WXSearchDisplayController.m */; };
-		E4D2A27C1BDB396500499CCF /* UIDeviceAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A27B1BDB396500499CCF /* UIDeviceAddtional.m */; };
-		E4D2A27F1BDB3AC100499CCF /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A27E1BDB3AC100499CCF /* NSString+Extra.m */; };
-		E4D2A2841BDB3C8400499CCF /* UIWindowAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2831BDB3C8400499CCF /* UIWindowAddition.m */; };
+		E4D2A2791BDB38A100499CCF /* WXSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2781BDB38A100499CCF /* WXSearchDisplayController.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A27C1BDB396500499CCF /* UIDeviceAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A27B1BDB396500499CCF /* UIDeviceAddtional.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A27F1BDB3AC100499CCF /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A27E1BDB3AC100499CCF /* NSString+Extra.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2841BDB3C8400499CCF /* UIWindowAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2831BDB3C8400499CCF /* UIWindowAddition.m */; settings = {ASSET_TAGS = (); }; };
 		E4D2A2A81BDB3E5300499CCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D2A2A71BDB3E5300499CCF /* QuartzCore.framework */; };
-		E4D2A2BF1BDB3F7400499CCF /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2AD1BDB3F7400499CCF /* arrow.png */; };
-		E4D2A2C01BDB3F7400499CCF /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2AE1BDB3F7400499CCF /* arrow@2x.png */; };
-		E4D2A2C11BDB3F7400499CCF /* blueAngle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2AF1BDB3F7400499CCF /* blueAngle.png */; };
-		E4D2A2C21BDB3F7400499CCF /* blueAngle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B01BDB3F7400499CCF /* blueAngle@2x.png */; };
-		E4D2A2C31BDB3F7400499CCF /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B11BDB3F7400499CCF /* blueCircle.png */; };
-		E4D2A2C41BDB3F7400499CCF /* blueCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B21BDB3F7400499CCF /* blueCircle@2x.png */; };
-		E4D2A2C51BDB3F7400499CCF /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2B41BDB3F7400499CCF /* DACircularProgressView.m */; };
-		E4D2A2C61BDB3F7400499CCF /* grayAngle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B51BDB3F7400499CCF /* grayAngle.png */; };
-		E4D2A2C71BDB3F7400499CCF /* grayAngle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B61BDB3F7400499CCF /* grayAngle@2x.png */; };
-		E4D2A2C81BDB3F7400499CCF /* grayCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B71BDB3F7400499CCF /* grayCircle.png */; };
-		E4D2A2C91BDB3F7400499CCF /* grayCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B81BDB3F7400499CCF /* grayCircle@2x.png */; };
-		E4D2A2CA1BDB3F7400499CCF /* RSPullToRefreshImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2BA1BDB3F7400499CCF /* RSPullToRefreshImageView.m */; };
-		E4D2A2CB1BDB3F7400499CCF /* SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2BC1BDB3F7400499CCF /* SVPullToRefresh.m */; };
-		E4D2A2CC1BDB3F7400499CCF /* XYPullToRefreshImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2BE1BDB3F7400499CCF /* XYPullToRefreshImageview.m */; };
-		E4D2A2CF1BDB403B00499CCF /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2CE1BDB403B00499CCF /* UIViewAdditions.m */; };
-		E4D2A2D51BDB482F00499CCF /* WXHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2D41BDB482F00499CCF /* WXHomeTableViewCell.m */; };
-		E4D2A2D81BDB489E00499CCF /* WXHomeTableViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2D71BDB489E00499CCF /* WXHomeTableViewObject.m */; };
-		E4D2A2F21BDB525100499CCF /* ViewCreatorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2F11BDB525100499CCF /* ViewCreatorHelper.m */; };
-		E4F11DAF1BC544CB00840BE1 /* ClickedBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F11DAE1BC544CB00840BE1 /* ClickedBlockViewController.m */; };
+		E4D2A2BF1BDB3F7400499CCF /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2AD1BDB3F7400499CCF /* arrow.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C01BDB3F7400499CCF /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2AE1BDB3F7400499CCF /* arrow@2x.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C11BDB3F7400499CCF /* blueAngle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2AF1BDB3F7400499CCF /* blueAngle.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C21BDB3F7400499CCF /* blueAngle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B01BDB3F7400499CCF /* blueAngle@2x.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C31BDB3F7400499CCF /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B11BDB3F7400499CCF /* blueCircle.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C41BDB3F7400499CCF /* blueCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B21BDB3F7400499CCF /* blueCircle@2x.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C51BDB3F7400499CCF /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2B41BDB3F7400499CCF /* DACircularProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C61BDB3F7400499CCF /* grayAngle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B51BDB3F7400499CCF /* grayAngle.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C71BDB3F7400499CCF /* grayAngle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B61BDB3F7400499CCF /* grayAngle@2x.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C81BDB3F7400499CCF /* grayCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B71BDB3F7400499CCF /* grayCircle.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2C91BDB3F7400499CCF /* grayCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A2B81BDB3F7400499CCF /* grayCircle@2x.png */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2CA1BDB3F7400499CCF /* RSPullToRefreshImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2BA1BDB3F7400499CCF /* RSPullToRefreshImageView.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2CB1BDB3F7400499CCF /* SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2BC1BDB3F7400499CCF /* SVPullToRefresh.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2CC1BDB3F7400499CCF /* XYPullToRefreshImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2BE1BDB3F7400499CCF /* XYPullToRefreshImageview.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2CF1BDB403B00499CCF /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2CE1BDB403B00499CCF /* UIViewAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2D51BDB482F00499CCF /* WXHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2D41BDB482F00499CCF /* WXHomeTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2D81BDB489E00499CCF /* WXHomeTableViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2D71BDB489E00499CCF /* WXHomeTableViewObject.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A2F21BDB525100499CCF /* ViewCreatorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A2F11BDB525100499CCF /* ViewCreatorHelper.m */; settings = {ASSET_TAGS = (); }; };
+		E4F11DAF1BC544CB00840BE1 /* ClickedBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F11DAE1BC544CB00840BE1 /* ClickedBlockViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1EA64791BF4DF960050C839 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1EA64751BF4DF960050C839 /* WXPersistence.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A1EA642A1BF4D3EE0050C839;
-			remoteInfo = WXPersistence;
-		};
-		A1EA647C1BF4DFB10050C839 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1EA64751BF4DF960050C839 /* WXPersistence.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A1EA64291BF4D3EE0050C839;
-			remoteInfo = WXPersistence;
-		};
 		E48DAE831B426D430080E009 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E48DAE5E1B426D430080E009 /* Project object */;
@@ -90,7 +75,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A1EA64751BF4DF960050C839 /* WXPersistence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WXPersistence.xcodeproj; path = ../WXPersistence/WXPersistence.xcodeproj; sourceTree = "<group>"; };
 		E481EC981BD7E6B900AF8215 /* WXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHomeViewController.h; sourceTree = "<group>"; };
 		E481EC991BD7E6B900AF8215 /* WXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHomeViewController.m; sourceTree = "<group>"; };
 		E481EC9B1BD7E6C800AF8215 /* WXUserInfoViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUserInfoViewcontroller.h; sourceTree = "<group>"; };
@@ -199,7 +183,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EA647B1BF4DFAC0050C839 /* libWXPersistence.a in Frameworks */,
 				E4D2A2A81BDB3E5300499CCF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +197,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1EA64761BF4DF960050C839 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1EA647A1BF4DF960050C839 /* libWXPersistence.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E481EC941BD7E6A900AF8215 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,7 +266,6 @@
 		E48DAE5D1B426D430080E009 = {
 			isa = PBXGroup;
 			children = (
-				A1EA64751BF4DF960050C839 /* WXPersistence.xcodeproj */,
 				E4D2A2A71BDB3E5300499CCF /* QuartzCore.framework */,
 				E48DAE681B426D430080E009 /* WXCore */,
 				E48DAE851B426D430080E009 /* WXCoreTests */,
@@ -544,7 +518,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A1EA647D1BF4DFB10050C839 /* PBXTargetDependency */,
 			);
 			name = WXCore;
 			productName = WXCore;
@@ -599,12 +572,6 @@
 			mainGroup = E48DAE5D1B426D430080E009;
 			productRefGroup = E48DAE671B426D430080E009 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A1EA64761BF4DF960050C839 /* Products */;
-					ProjectRef = A1EA64751BF4DF960050C839 /* WXPersistence.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E48DAE651B426D430080E009 /* WXCore */,
@@ -612,16 +579,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A1EA647A1BF4DF960050C839 /* libWXPersistence.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libWXPersistence.a;
-			remoteRef = A1EA64791BF4DF960050C839 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E48DAE641B426D430080E009 /* Resources */ = {
@@ -712,11 +669,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A1EA647D1BF4DFB10050C839 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WXPersistence;
-			targetProxy = A1EA647C1BF4DFB10050C839 /* PBXContainerItemProxy */;
-		};
 		E48DAE841B426D430080E009 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E48DAE651B426D430080E009 /* WXCore */;

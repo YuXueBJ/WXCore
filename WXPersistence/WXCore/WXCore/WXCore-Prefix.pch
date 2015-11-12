@@ -1,0 +1,13 @@
+//
+//  WXCore-Prefix.pch
+//  WXCore
+//
+//  Created by 朱洪伟 on 15/8/7.
+//  Copyright (c) 2015年 Zhu Hong Wei. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#endif
+
+#import "WXCode.h"
