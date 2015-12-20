@@ -7,40 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A18054C21C1BC73300D752DC /* Foundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA643A1BF4D48E0050C839 /* Foundation.framework */; };
-		A18054C31C1BC73300D752DC /* FMDatabase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64411BF4D5660050C839 /* FMDatabase.h */; };
-		A18054C41C1BC73300D752DC /* FMDatabase.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64421BF4D5660050C839 /* FMDatabase.m */; };
-		A18054C51C1BC73300D752DC /* FMDatabaseAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64431BF4D5660050C839 /* FMDatabaseAdditions.h */; };
-		A18054C61C1BC73300D752DC /* FMDatabaseAdditions.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64441BF4D5660050C839 /* FMDatabaseAdditions.m */; };
-		A18054C71C1BC73300D752DC /* FMDatabasePool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64451BF4D5660050C839 /* FMDatabasePool.h */; };
-		A18054C81C1BC73300D752DC /* FMDatabasePool.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64461BF4D5660050C839 /* FMDatabasePool.m */; };
-		A18054C91C1BC73300D752DC /* FMDatabaseQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64471BF4D5660050C839 /* FMDatabaseQueue.h */; };
-		A18054CA1C1BC73300D752DC /* FMDatabaseQueue.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64481BF4D5660050C839 /* FMDatabaseQueue.m */; };
-		A18054CB1C1BC73300D752DC /* FMDB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64491BF4D5660050C839 /* FMDB.h */; };
-		A18054CC1C1BC73300D752DC /* FMResultSet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA644A1BF4D5660050C839 /* FMResultSet.h */; };
-		A18054CD1C1BC73300D752DC /* FMResultSet.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA644B1BF4D5660050C839 /* FMResultSet.m */; };
-		A18054CE1C1BC73300D752DC /* WSPersistence.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA643E1BF4D5300050C839 /* WSPersistence.h */; };
-		A18054CF1C1BC73300D752DC /* WSPersistenceContext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64541BF4D5D40050C839 /* WSPersistenceContext.h */; };
-		A18054D01C1BC73300D752DC /* WSPersistenceContext.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64551BF4D5D40050C839 /* WSPersistenceContext.m */; };
-		A18054D11C1BC73300D752DC /* WSPersistenceObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA645A1BF4D7670050C839 /* WSPersistenceObject.h */; };
-		A18054D21C1BC73300D752DC /* WSPersistenceObject.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA645B1BF4D7670050C839 /* WSPersistenceObject.m */; };
-		A18054D31C1BC73300D752DC /* WSPersistenceObjectMateInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA645D1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.h */; };
-		A18054D41C1BC73300D752DC /* WSPersistenceObjectMateInfo.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA645E1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m */; };
-		A18054D51C1BC73300D752DC /* WSPersistenceObjectProperty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64571BF4D63E0050C839 /* WSPersistenceObjectProperty.h */; };
-		A18054D61C1BC73300D752DC /* WSPersistenceObjectProperty.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64581BF4D63E0050C839 /* WSPersistenceObjectProperty.m */; };
-		A18054D71C1BC73300D752DC /* WSPersistenceObjectVersion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64511BF4D5B20050C839 /* WSPersistenceObjectVersion.h */; };
-		A18054D81C1BC73300D752DC /* WSPersistenceObjectVersion.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64521BF4D5B20050C839 /* WSPersistenceObjectVersion.m */; };
-		A18054D91C1BC73300D752DC /* WSPersistenceSequence.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64601BF4D87D0050C839 /* WSPersistenceSequence.h */; };
-		A18054DA1C1BC73300D752DC /* WSPersistenceSequence.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64611BF4D87D0050C839 /* WSPersistenceSequence.m */; };
-		A18054DB1C1BC73300D752DC /* WSPersistenceService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64631BF4D9460050C839 /* WSPersistenceService.h */; };
-		A18054DC1C1BC73300D752DC /* WSPersistenceService.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64641BF4D9460050C839 /* WSPersistenceService.m */; };
-		A18054DD1C1BC73300D752DC /* WSPersistenceTableUpgrader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64661BF4DBBF0050C839 /* WSPersistenceTableUpgrader.h */; };
-		A18054DE1C1BC73300D752DC /* WSPersistenceTableUpgrader.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64671BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m */; };
-		A18054DF1C1BC73300D752DC /* WSPersistenceUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64691BF4DC100050C839 /* WSPersistenceUtil.h */; };
-		A18054E01C1BC73300D752DC /* WSPersistenceUtil.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA646A1BF4DC100050C839 /* WSPersistenceUtil.m */; };
-		A18054E11C1BC73300D752DC /* NSObjectAddition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64371BF4D4470050C839 /* NSObjectAddition.h */; };
-		A18054E21C1BC73300D752DC /* NSObjectAddition.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64381BF4D4470050C839 /* NSObjectAddition.m */; };
-		A18054E31C1BC73300D752DC /* libWXPersistence.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA642A1BF4D3EE0050C839 /* libWXPersistence.a */; };
+		A18054A51C1BBE5400D752DC /* NSObjectAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = A18054911C1BBE5400D752DC /* NSObjectAddition.m */; };
+		A18054A61C1BBE5400D752DC /* WSPersistenceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A18054941C1BBE5400D752DC /* WSPersistenceContext.m */; };
+		A18054A71C1BBE5400D752DC /* WSPersistenceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A18054961C1BBE5400D752DC /* WSPersistenceObject.m */; };
+		A18054A81C1BBE5400D752DC /* WSPersistenceObjectMateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A18054981C1BBE5400D752DC /* WSPersistenceObjectMateInfo.m */; };
+		A18054A91C1BBE5400D752DC /* WSPersistenceObjectProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A180549A1C1BBE5400D752DC /* WSPersistenceObjectProperty.m */; };
+		A18054AA1C1BBE5400D752DC /* WSPersistenceObjectVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A180549C1C1BBE5400D752DC /* WSPersistenceObjectVersion.m */; };
+		A18054AB1C1BBE5400D752DC /* WSPersistenceSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = A180549E1C1BBE5400D752DC /* WSPersistenceSequence.m */; };
+		A18054AC1C1BBE5400D752DC /* WSPersistenceService.m in Sources */ = {isa = PBXBuildFile; fileRef = A18054A01C1BBE5400D752DC /* WSPersistenceService.m */; };
+		A18054AD1C1BBE5400D752DC /* WSPersistenceTableUpgrader.m in Sources */ = {isa = PBXBuildFile; fileRef = A18054A21C1BBE5400D752DC /* WSPersistenceTableUpgrader.m */; };
+		A18054AE1C1BBE5400D752DC /* WSPersistenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A18054A41C1BBE5400D752DC /* WSPersistenceUtil.m */; };
+		A18054F61C1BC75F00D752DC /* NSObjectAddition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054901C1BBE5400D752DC /* NSObjectAddition.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18054F71C1BC75F00D752DC /* WSPersistence.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054921C1BBE5400D752DC /* WSPersistence.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18054FC1C1BC7B200D752DC /* WSPersistenceContext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054931C1BBE5400D752DC /* WSPersistenceContext.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18054FD1C1BC7B200D752DC /* WSPersistenceObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054951C1BBE5400D752DC /* WSPersistenceObject.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18054FE1C1BC7B200D752DC /* WSPersistenceObjectMateInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054971C1BBE5400D752DC /* WSPersistenceObjectMateInfo.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18054FF1C1BC7B200D752DC /* WSPersistenceObjectProperty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054991C1BBE5400D752DC /* WSPersistenceObjectProperty.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055001C1BC7B200D752DC /* WSPersistenceObjectVersion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A180549B1C1BBE5400D752DC /* WSPersistenceObjectVersion.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055011C1BC7B200D752DC /* WSPersistenceSequence.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A180549D1C1BBE5400D752DC /* WSPersistenceSequence.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055021C1BC7B200D752DC /* WSPersistenceService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A180549F1C1BBE5400D752DC /* WSPersistenceService.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055031C1BC7B200D752DC /* WSPersistenceTableUpgrader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054A11C1BBE5400D752DC /* WSPersistenceTableUpgrader.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055041C1BC7B200D752DC /* WSPersistenceUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A18054A31C1BBE5400D752DC /* WSPersistenceUtil.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055051C1BC7C400D752DC /* FMDatabase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64411BF4D5660050C839 /* FMDatabase.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055061C1BC7C400D752DC /* FMDatabaseAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64431BF4D5660050C839 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055071C1BC7C400D752DC /* FMDatabasePool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64451BF4D5660050C839 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055081C1BC7C400D752DC /* FMDatabaseQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64471BF4D5660050C839 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A18055091C1BC7C400D752DC /* FMDB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA64491BF4D5660050C839 /* FMDB.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A180550A1C1BC7C400D752DC /* FMResultSet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1EA644A1BF4D5660050C839 /* FMResultSet.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A1EA64391BF4D4470050C839 /* NSObjectAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64381BF4D4470050C839 /* NSObjectAddition.m */; };
 		A1EA643B1BF4D48E0050C839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EA643A1BF4D48E0050C839 /* Foundation.framework */; };
 		A1EA644C1BF4D5660050C839 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64421BF4D5660050C839 /* FMDatabase.m */; };
@@ -48,69 +41,66 @@
 		A1EA644E1BF4D5660050C839 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64461BF4D5660050C839 /* FMDatabasePool.m */; };
 		A1EA644F1BF4D5660050C839 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64481BF4D5660050C839 /* FMDatabaseQueue.m */; };
 		A1EA64501BF4D5660050C839 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA644B1BF4D5660050C839 /* FMResultSet.m */; };
-		A1EA64531BF4D5B20050C839 /* WSPersistenceObjectVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64521BF4D5B20050C839 /* WSPersistenceObjectVersion.m */; };
-		A1EA64561BF4D5D40050C839 /* WSPersistenceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64551BF4D5D40050C839 /* WSPersistenceContext.m */; };
-		A1EA64591BF4D63E0050C839 /* WSPersistenceObjectProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64581BF4D63E0050C839 /* WSPersistenceObjectProperty.m */; };
-		A1EA645C1BF4D7670050C839 /* WSPersistenceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA645B1BF4D7670050C839 /* WSPersistenceObject.m */; };
-		A1EA645F1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA645E1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m */; };
-		A1EA64621BF4D87D0050C839 /* WSPersistenceSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64611BF4D87D0050C839 /* WSPersistenceSequence.m */; };
-		A1EA64651BF4D9460050C839 /* WSPersistenceService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64641BF4D9460050C839 /* WSPersistenceService.m */; };
-		A1EA64681BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA64671BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m */; };
-		A1EA646B1BF4DC100050C839 /* WSPersistenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA646A1BF4DC100050C839 /* WSPersistenceUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A1EA64281BF4D3EE0050C839 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A18054C21C1BC73300D752DC /* Foundation.framework in CopyFiles */,
-				A18054C31C1BC73300D752DC /* FMDatabase.h in CopyFiles */,
-				A18054C41C1BC73300D752DC /* FMDatabase.m in CopyFiles */,
-				A18054C51C1BC73300D752DC /* FMDatabaseAdditions.h in CopyFiles */,
-				A18054C61C1BC73300D752DC /* FMDatabaseAdditions.m in CopyFiles */,
-				A18054C71C1BC73300D752DC /* FMDatabasePool.h in CopyFiles */,
-				A18054C81C1BC73300D752DC /* FMDatabasePool.m in CopyFiles */,
-				A18054C91C1BC73300D752DC /* FMDatabaseQueue.h in CopyFiles */,
-				A18054CA1C1BC73300D752DC /* FMDatabaseQueue.m in CopyFiles */,
-				A18054CB1C1BC73300D752DC /* FMDB.h in CopyFiles */,
-				A18054CC1C1BC73300D752DC /* FMResultSet.h in CopyFiles */,
-				A18054CD1C1BC73300D752DC /* FMResultSet.m in CopyFiles */,
-				A18054CE1C1BC73300D752DC /* WSPersistence.h in CopyFiles */,
-				A18054CF1C1BC73300D752DC /* WSPersistenceContext.h in CopyFiles */,
-				A18054D01C1BC73300D752DC /* WSPersistenceContext.m in CopyFiles */,
-				A18054D11C1BC73300D752DC /* WSPersistenceObject.h in CopyFiles */,
-				A18054D21C1BC73300D752DC /* WSPersistenceObject.m in CopyFiles */,
-				A18054D31C1BC73300D752DC /* WSPersistenceObjectMateInfo.h in CopyFiles */,
-				A18054D41C1BC73300D752DC /* WSPersistenceObjectMateInfo.m in CopyFiles */,
-				A18054D51C1BC73300D752DC /* WSPersistenceObjectProperty.h in CopyFiles */,
-				A18054D61C1BC73300D752DC /* WSPersistenceObjectProperty.m in CopyFiles */,
-				A18054D71C1BC73300D752DC /* WSPersistenceObjectVersion.h in CopyFiles */,
-				A18054D81C1BC73300D752DC /* WSPersistenceObjectVersion.m in CopyFiles */,
-				A18054D91C1BC73300D752DC /* WSPersistenceSequence.h in CopyFiles */,
-				A18054DA1C1BC73300D752DC /* WSPersistenceSequence.m in CopyFiles */,
-				A18054DB1C1BC73300D752DC /* WSPersistenceService.h in CopyFiles */,
-				A18054DC1C1BC73300D752DC /* WSPersistenceService.m in CopyFiles */,
-				A18054DD1C1BC73300D752DC /* WSPersistenceTableUpgrader.h in CopyFiles */,
-				A18054DE1C1BC73300D752DC /* WSPersistenceTableUpgrader.m in CopyFiles */,
-				A18054DF1C1BC73300D752DC /* WSPersistenceUtil.h in CopyFiles */,
-				A18054E01C1BC73300D752DC /* WSPersistenceUtil.m in CopyFiles */,
-				A18054E11C1BC73300D752DC /* NSObjectAddition.h in CopyFiles */,
-				A18054E21C1BC73300D752DC /* NSObjectAddition.m in CopyFiles */,
-				A18054E31C1BC73300D752DC /* libWXPersistence.a in CopyFiles */,
+				A18054F61C1BC75F00D752DC /* NSObjectAddition.h in CopyFiles */,
+				A18055051C1BC7C400D752DC /* FMDatabase.h in CopyFiles */,
+				A18055061C1BC7C400D752DC /* FMDatabaseAdditions.h in CopyFiles */,
+				A18055071C1BC7C400D752DC /* FMDatabasePool.h in CopyFiles */,
+				A18055081C1BC7C400D752DC /* FMDatabaseQueue.h in CopyFiles */,
+				A18055091C1BC7C400D752DC /* FMDB.h in CopyFiles */,
+				A180550A1C1BC7C400D752DC /* FMResultSet.h in CopyFiles */,
+				A18054FC1C1BC7B200D752DC /* WSPersistenceContext.h in CopyFiles */,
+				A18054FD1C1BC7B200D752DC /* WSPersistenceObject.h in CopyFiles */,
+				A18054FE1C1BC7B200D752DC /* WSPersistenceObjectMateInfo.h in CopyFiles */,
+				A18054FF1C1BC7B200D752DC /* WSPersistenceObjectProperty.h in CopyFiles */,
+				A18055001C1BC7B200D752DC /* WSPersistenceObjectVersion.h in CopyFiles */,
+				A18055011C1BC7B200D752DC /* WSPersistenceSequence.h in CopyFiles */,
+				A18055021C1BC7B200D752DC /* WSPersistenceService.h in CopyFiles */,
+				A18055031C1BC7B200D752DC /* WSPersistenceTableUpgrader.h in CopyFiles */,
+				A18055041C1BC7B200D752DC /* WSPersistenceUtil.h in CopyFiles */,
+				A18054F71C1BC75F00D752DC /* WSPersistence.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A18054901C1BBE5400D752DC /* NSObjectAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAddition.h; sourceTree = "<group>"; };
+		A18054911C1BBE5400D752DC /* NSObjectAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAddition.m; sourceTree = "<group>"; };
+		A18054921C1BBE5400D752DC /* WSPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistence.h; sourceTree = "<group>"; };
+		A18054931C1BBE5400D752DC /* WSPersistenceContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceContext.h; sourceTree = "<group>"; };
+		A18054941C1BBE5400D752DC /* WSPersistenceContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceContext.m; sourceTree = "<group>"; };
+		A18054951C1BBE5400D752DC /* WSPersistenceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObject.h; sourceTree = "<group>"; };
+		A18054961C1BBE5400D752DC /* WSPersistenceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObject.m; sourceTree = "<group>"; };
+		A18054971C1BBE5400D752DC /* WSPersistenceObjectMateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectMateInfo.h; sourceTree = "<group>"; };
+		A18054981C1BBE5400D752DC /* WSPersistenceObjectMateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectMateInfo.m; sourceTree = "<group>"; };
+		A18054991C1BBE5400D752DC /* WSPersistenceObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectProperty.h; sourceTree = "<group>"; };
+		A180549A1C1BBE5400D752DC /* WSPersistenceObjectProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectProperty.m; sourceTree = "<group>"; };
+		A180549B1C1BBE5400D752DC /* WSPersistenceObjectVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectVersion.h; sourceTree = "<group>"; };
+		A180549C1C1BBE5400D752DC /* WSPersistenceObjectVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectVersion.m; sourceTree = "<group>"; };
+		A180549D1C1BBE5400D752DC /* WSPersistenceSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceSequence.h; sourceTree = "<group>"; };
+		A180549E1C1BBE5400D752DC /* WSPersistenceSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceSequence.m; sourceTree = "<group>"; };
+		A180549F1C1BBE5400D752DC /* WSPersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceService.h; sourceTree = "<group>"; };
+		A18054A01C1BBE5400D752DC /* WSPersistenceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceService.m; sourceTree = "<group>"; };
+		A18054A11C1BBE5400D752DC /* WSPersistenceTableUpgrader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceTableUpgrader.h; sourceTree = "<group>"; };
+		A18054A21C1BBE5400D752DC /* WSPersistenceTableUpgrader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceTableUpgrader.m; sourceTree = "<group>"; };
+		A18054A31C1BBE5400D752DC /* WSPersistenceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceUtil.h; sourceTree = "<group>"; };
+		A18054A41C1BBE5400D752DC /* WSPersistenceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceUtil.m; sourceTree = "<group>"; };
+		A18054F81C1BC76B00D752DC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A18054F91C1BC76B00D752DC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A18055541C1BCC2E00D752DC /* 添加说明.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "添加说明.strings"; sourceTree = "<group>"; };
 		A1EA642A1BF4D3EE0050C839 /* libWXPersistence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWXPersistence.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EA64371BF4D4470050C839 /* NSObjectAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAddition.h; sourceTree = "<group>"; };
 		A1EA64381BF4D4470050C839 /* NSObjectAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAddition.m; sourceTree = "<group>"; };
 		A1EA643A1BF4D48E0050C839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A1EA643E1BF4D5300050C839 /* WSPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistence.h; sourceTree = "<group>"; };
 		A1EA64411BF4D5660050C839 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		A1EA64421BF4D5660050C839 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		A1EA64431BF4D5660050C839 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -122,24 +112,6 @@
 		A1EA64491BF4D5660050C839 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 		A1EA644A1BF4D5660050C839 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		A1EA644B1BF4D5660050C839 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		A1EA64511BF4D5B20050C839 /* WSPersistenceObjectVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectVersion.h; sourceTree = "<group>"; };
-		A1EA64521BF4D5B20050C839 /* WSPersistenceObjectVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectVersion.m; sourceTree = "<group>"; };
-		A1EA64541BF4D5D40050C839 /* WSPersistenceContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceContext.h; sourceTree = "<group>"; };
-		A1EA64551BF4D5D40050C839 /* WSPersistenceContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceContext.m; sourceTree = "<group>"; };
-		A1EA64571BF4D63E0050C839 /* WSPersistenceObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectProperty.h; sourceTree = "<group>"; };
-		A1EA64581BF4D63E0050C839 /* WSPersistenceObjectProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectProperty.m; sourceTree = "<group>"; };
-		A1EA645A1BF4D7670050C839 /* WSPersistenceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObject.h; sourceTree = "<group>"; };
-		A1EA645B1BF4D7670050C839 /* WSPersistenceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObject.m; sourceTree = "<group>"; };
-		A1EA645D1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectMateInfo.h; sourceTree = "<group>"; };
-		A1EA645E1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectMateInfo.m; sourceTree = "<group>"; };
-		A1EA64601BF4D87D0050C839 /* WSPersistenceSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceSequence.h; sourceTree = "<group>"; };
-		A1EA64611BF4D87D0050C839 /* WSPersistenceSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceSequence.m; sourceTree = "<group>"; };
-		A1EA64631BF4D9460050C839 /* WSPersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceService.h; sourceTree = "<group>"; };
-		A1EA64641BF4D9460050C839 /* WSPersistenceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceService.m; sourceTree = "<group>"; };
-		A1EA64661BF4DBBF0050C839 /* WSPersistenceTableUpgrader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceTableUpgrader.h; sourceTree = "<group>"; };
-		A1EA64671BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceTableUpgrader.m; sourceTree = "<group>"; };
-		A1EA64691BF4DC100050C839 /* WSPersistenceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceUtil.h; sourceTree = "<group>"; };
-		A1EA646A1BF4DC100050C839 /* WSPersistenceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,9 +126,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A18054AF1C1BBE5D00D752DC /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A18054931C1BBE5400D752DC /* WSPersistenceContext.h */,
+				A18054941C1BBE5400D752DC /* WSPersistenceContext.m */,
+				A18054951C1BBE5400D752DC /* WSPersistenceObject.h */,
+				A18054961C1BBE5400D752DC /* WSPersistenceObject.m */,
+				A18054971C1BBE5400D752DC /* WSPersistenceObjectMateInfo.h */,
+				A18054981C1BBE5400D752DC /* WSPersistenceObjectMateInfo.m */,
+				A18054991C1BBE5400D752DC /* WSPersistenceObjectProperty.h */,
+				A180549A1C1BBE5400D752DC /* WSPersistenceObjectProperty.m */,
+				A180549B1C1BBE5400D752DC /* WSPersistenceObjectVersion.h */,
+				A180549C1C1BBE5400D752DC /* WSPersistenceObjectVersion.m */,
+				A180549D1C1BBE5400D752DC /* WSPersistenceSequence.h */,
+				A180549E1C1BBE5400D752DC /* WSPersistenceSequence.m */,
+				A180549F1C1BBE5400D752DC /* WSPersistenceService.h */,
+				A18054A01C1BBE5400D752DC /* WSPersistenceService.m */,
+				A18054A11C1BBE5400D752DC /* WSPersistenceTableUpgrader.h */,
+				A18054A21C1BBE5400D752DC /* WSPersistenceTableUpgrader.m */,
+				A18054A31C1BBE5400D752DC /* WSPersistenceUtil.h */,
+				A18054A41C1BBE5400D752DC /* WSPersistenceUtil.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
 		A1EA64211BF4D3EE0050C839 = {
 			isa = PBXGroup;
 			children = (
+				A18055541C1BCC2E00D752DC /* 添加说明.strings */,
 				A1EA64361BF4D40E0050C839 /* Frameworks */,
 				A1EA642C1BF4D3EE0050C839 /* WXPersistence */,
 				A1EA642B1BF4D3EE0050C839 /* Products */,
@@ -174,8 +172,11 @@
 		A1EA642C1BF4D3EE0050C839 /* WXPersistence */ = {
 			isa = PBXGroup;
 			children = (
+				A18054901C1BBE5400D752DC /* NSObjectAddition.h */,
+				A18054911C1BBE5400D752DC /* NSObjectAddition.m */,
+				A18054921C1BBE5400D752DC /* WSPersistence.h */,
+				A18054AF1C1BBE5D00D752DC /* Persistence */,
 				A1EA643C1BF4D50B0050C839 /* FMDB */,
-				A1EA643D1BF4D50B0050C839 /* Persistence */,
 				A1EA64371BF4D4470050C839 /* NSObjectAddition.h */,
 				A1EA64381BF4D4470050C839 /* NSObjectAddition.m */,
 			);
@@ -185,6 +186,8 @@
 		A1EA64361BF4D40E0050C839 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A18054F81C1BC76B00D752DC /* libsqlite3.0.tbd */,
+				A18054F91C1BC76B00D752DC /* libsqlite3.tbd */,
 				A1EA643A1BF4D48E0050C839 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -206,32 +209,6 @@
 				A1EA644B1BF4D5660050C839 /* FMResultSet.m */,
 			);
 			path = FMDB;
-			sourceTree = "<group>";
-		};
-		A1EA643D1BF4D50B0050C839 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-				A1EA643E1BF4D5300050C839 /* WSPersistence.h */,
-				A1EA64541BF4D5D40050C839 /* WSPersistenceContext.h */,
-				A1EA64551BF4D5D40050C839 /* WSPersistenceContext.m */,
-				A1EA645A1BF4D7670050C839 /* WSPersistenceObject.h */,
-				A1EA645B1BF4D7670050C839 /* WSPersistenceObject.m */,
-				A1EA645D1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.h */,
-				A1EA645E1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m */,
-				A1EA64571BF4D63E0050C839 /* WSPersistenceObjectProperty.h */,
-				A1EA64581BF4D63E0050C839 /* WSPersistenceObjectProperty.m */,
-				A1EA64511BF4D5B20050C839 /* WSPersistenceObjectVersion.h */,
-				A1EA64521BF4D5B20050C839 /* WSPersistenceObjectVersion.m */,
-				A1EA64601BF4D87D0050C839 /* WSPersistenceSequence.h */,
-				A1EA64611BF4D87D0050C839 /* WSPersistenceSequence.m */,
-				A1EA64631BF4D9460050C839 /* WSPersistenceService.h */,
-				A1EA64641BF4D9460050C839 /* WSPersistenceService.m */,
-				A1EA64661BF4DBBF0050C839 /* WSPersistenceTableUpgrader.h */,
-				A1EA64671BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m */,
-				A1EA64691BF4DC100050C839 /* WSPersistenceUtil.h */,
-				A1EA646A1BF4DC100050C839 /* WSPersistenceUtil.m */,
-			);
-			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,20 +268,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1EA64501BF4D5660050C839 /* FMResultSet.m in Sources */,
+				A18054AD1C1BBE5400D752DC /* WSPersistenceTableUpgrader.m in Sources */,
 				A1EA644F1BF4D5660050C839 /* FMDatabaseQueue.m in Sources */,
+				A18054A51C1BBE5400D752DC /* NSObjectAddition.m in Sources */,
+				A18054A81C1BBE5400D752DC /* WSPersistenceObjectMateInfo.m in Sources */,
 				A1EA64391BF4D4470050C839 /* NSObjectAddition.m in Sources */,
-				A1EA645F1BF4D7CE0050C839 /* WSPersistenceObjectMateInfo.m in Sources */,
-				A1EA646B1BF4DC100050C839 /* WSPersistenceUtil.m in Sources */,
-				A1EA64531BF4D5B20050C839 /* WSPersistenceObjectVersion.m in Sources */,
+				A18054AC1C1BBE5400D752DC /* WSPersistenceService.m in Sources */,
 				A1EA644E1BF4D5660050C839 /* FMDatabasePool.m in Sources */,
-				A1EA64621BF4D87D0050C839 /* WSPersistenceSequence.m in Sources */,
-				A1EA64561BF4D5D40050C839 /* WSPersistenceContext.m in Sources */,
-				A1EA645C1BF4D7670050C839 /* WSPersistenceObject.m in Sources */,
+				A18054A91C1BBE5400D752DC /* WSPersistenceObjectProperty.m in Sources */,
+				A18054A61C1BBE5400D752DC /* WSPersistenceContext.m in Sources */,
 				A1EA644C1BF4D5660050C839 /* FMDatabase.m in Sources */,
-				A1EA64591BF4D63E0050C839 /* WSPersistenceObjectProperty.m in Sources */,
-				A1EA64651BF4D9460050C839 /* WSPersistenceService.m in Sources */,
-				A1EA64681BF4DBBF0050C839 /* WSPersistenceTableUpgrader.m in Sources */,
+				A18054AE1C1BBE5400D752DC /* WSPersistenceUtil.m in Sources */,
+				A18054AB1C1BBE5400D752DC /* WSPersistenceSequence.m in Sources */,
+				A18054A71C1BBE5400D752DC /* WSPersistenceObject.m in Sources */,
 				A1EA644D1BF4D5660050C839 /* FMDatabaseAdditions.m in Sources */,
+				A18054AA1C1BBE5400D752DC /* WSPersistenceObjectVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +372,10 @@
 		A1EA64341BF4D3EE0050C839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -403,7 +384,10 @@
 		A1EA64351BF4D3EE0050C839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

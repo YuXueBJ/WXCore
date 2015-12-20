@@ -13,28 +13,28 @@
 		A18054581C1BBBE800D752DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18054561C1BBBE800D752DC /* Main.storyboard */; };
 		A180545A1C1BBBE800D752DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18054591C1BBBE800D752DC /* Assets.xcassets */; };
 		A180545D1C1BBBE800D752DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A180545B1C1BBBE800D752DC /* LaunchScreen.storyboard */; };
-		A18055571C1BCCA800D752DC /* libWXPersistence.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A18055531C1BCB3D00D752DC /* libWXPersistence.a */; };
 		A18055581C1BCCBA00D752DC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A18054861C1BBC1100D752DC /* libsqlite3.0.tbd */; };
 		A18055591C1BCCBA00D752DC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A18054871C1BBC1100D752DC /* libsqlite3.tbd */; };
 		A180555C1C1BCD5100D752DC /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A180555B1C1BCD5100D752DC /* AppContext.m */; };
 		A18055601C1BCEF100D752DC /* HomeDataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = A180555F1C1BCEF100D752DC /* HomeDataSave.m */; };
 		A18055631C1BCF5700D752DC /* HomeDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A18055621C1BCF5700D752DC /* HomeDataObject.m */; };
+		A19BEB791C26A6D8001A4C4D /* libWSPersistence.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A19BEB761C26A6C8001A4C4D /* libWSPersistence.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A18055521C1BCB3D00D752DC /* PBXContainerItemProxy */ = {
+		A19BEB751C26A6C8001A4C4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A180554E1C1BCB3C00D752DC /* WXPersistence.xcodeproj */;
+			containerPortal = A19BEB711C26A6C8001A4C4D /* WSPersistence.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A1EA642A1BF4D3EE0050C839;
-			remoteInfo = WXPersistence;
+			remoteInfo = WSPersistence;
 		};
-		A18055551C1BCCA300D752DC /* PBXContainerItemProxy */ = {
+		A19BEB771C26A6D2001A4C4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A180554E1C1BCB3C00D752DC /* WXPersistence.xcodeproj */;
+			containerPortal = A19BEB711C26A6C8001A4C4D /* WSPersistence.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = A1EA64291BF4D3EE0050C839;
-			remoteInfo = WXPersistence;
+			remoteInfo = WSPersistence;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,13 +55,13 @@
 		A18054741C1BBBE800D752DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18054861C1BBC1100D752DC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A18054871C1BBC1100D752DC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		A180554E1C1BCB3C00D752DC /* WXPersistence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WXPersistence.xcodeproj; path = WXPersistence/WXPersistence.xcodeproj; sourceTree = "<group>"; };
 		A180555A1C1BCD5100D752DC /* AppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
 		A180555B1C1BCD5100D752DC /* AppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
 		A180555E1C1BCEF100D752DC /* HomeDataSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataSave.h; sourceTree = "<group>"; };
 		A180555F1C1BCEF100D752DC /* HomeDataSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataSave.m; sourceTree = "<group>"; };
 		A18055611C1BCF5700D752DC /* HomeDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataObject.h; sourceTree = "<group>"; };
 		A18055621C1BCF5700D752DC /* HomeDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataObject.m; sourceTree = "<group>"; };
+		A19BEB711C26A6C8001A4C4D /* WSPersistence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WSPersistence.xcodeproj; path = WSPersistence/WSPersistence.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19BEB791C26A6D8001A4C4D /* libWSPersistence.a in Frameworks */,
 				A18055581C1BCCBA00D752DC /* libsqlite3.0.tbd in Frameworks */,
 				A18055591C1BCCBA00D752DC /* libsqlite3.tbd in Frameworks */,
-				A18055571C1BCCA800D752DC /* libWXPersistence.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			children = (
 				A18054861C1BBC1100D752DC /* libsqlite3.0.tbd */,
 				A18054871C1BBC1100D752DC /* libsqlite3.tbd */,
-				A180554E1C1BCB3C00D752DC /* WXPersistence.xcodeproj */,
+				A19BEB711C26A6C8001A4C4D /* WSPersistence.xcodeproj */,
 				A180544C1C1BBBE800D752DC /* TestPersistence */,
 				A18054661C1BBBE800D752DC /* TestPersistenceTests */,
 				A18054711C1BBBE800D752DC /* TestPersistenceUITests */,
@@ -147,10 +147,10 @@
 			path = TestPersistenceUITests;
 			sourceTree = "<group>";
 		};
-		A180554F1C1BCB3C00D752DC /* Products */ = {
+		A19BEB721C26A6C8001A4C4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A18055531C1BCB3D00D752DC /* libWXPersistence.a */,
+				A19BEB761C26A6C8001A4C4D /* libWSPersistence.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A18055561C1BCCA300D752DC /* PBXTargetDependency */,
+				A19BEB781C26A6D2001A4C4D /* PBXTargetDependency */,
 			);
 			name = TestPersistence;
 			productName = TestPersistence;
@@ -203,8 +203,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A180554F1C1BCB3C00D752DC /* Products */;
-					ProjectRef = A180554E1C1BCB3C00D752DC /* WXPersistence.xcodeproj */;
+					ProductGroup = A19BEB721C26A6C8001A4C4D /* Products */;
+					ProjectRef = A19BEB711C26A6C8001A4C4D /* WSPersistence.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -215,11 +215,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A18055531C1BCB3D00D752DC /* libWXPersistence.a */ = {
+		A19BEB761C26A6C8001A4C4D /* libWSPersistence.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libWXPersistence.a;
-			remoteRef = A18055521C1BCB3D00D752DC /* PBXContainerItemProxy */;
+			path = libWSPersistence.a;
+			remoteRef = A19BEB751C26A6C8001A4C4D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -254,10 +254,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A18055561C1BCCA300D752DC /* PBXTargetDependency */ = {
+		A19BEB781C26A6D2001A4C4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WXPersistence;
-			targetProxy = A18055551C1BCCA300D752DC /* PBXContainerItemProxy */;
+			name = WSPersistence;
+			targetProxy = A19BEB771C26A6D2001A4C4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -368,7 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WXPersistence\"/**";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WSPersistence\"/**";
 				INFOPLIST_FILE = TestPersistence/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
@@ -387,7 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WXPersistence\"/**";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WSPersistence\"/**";
 				INFOPLIST_FILE = TestPersistence/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
