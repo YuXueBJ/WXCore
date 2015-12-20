@@ -8,9 +8,9 @@
 
 #import "WXHomeViewController.h"
 #import "WXHomeViewDataSource.h"
+#import "WSPersistence.h"
 
 @interface WXHomeViewController ()
-//@property (nonatomic,strong)WXHomeViewDataSource * dataSource;
 @property (nonatomic,assign)NSInteger requestPage;
 @property (nonatomic,strong)NSMutableArray * dataSourceArray;
 @end
@@ -28,9 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     self.dataSource = [[WXHomeViewDataSource alloc] init];
-
     
     self.tableView.backgroundColor = [UIColor whiteColor];
     self.tableView.showsPullToRefresh =YES;
@@ -40,6 +38,7 @@
     self.tableView.frame = CGRectMake(0, 65, self.view.width, self.view.height-65);
     [self.dataSourceArray addObjectsFromArray:[self testRequstData]];
 
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -91,7 +90,7 @@
         [self showEmpty:NO];
     }
     //RequestSuccess
-    if (1) {
+    if (/* DISABLES CODE */ (1)) {
         [(WXHomeViewDataSource*)self.dataSource reloadHomeTableViewData:self.dataSourceArray];
         [self.tableView reloadData];
     }else{
