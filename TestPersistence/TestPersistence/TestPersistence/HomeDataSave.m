@@ -30,9 +30,9 @@
         [self saveOrUpdateObject:lisetObject];        
     }];
 }
+
 - (void)updatebHomeData:(NSNumber*)homeId
 {
-//    NSString *sql = [NSString stringWithFormat:@"update Home_data_object set walet_is_rob  = '%@' where data_id = '%@'",waletIsRob,workID];
     NSString *sql = [NSString stringWithFormat:@"update Home_data_object set home_id  = '%@'",homeId];
     [self.context executeUpdateSql:sql];
 }

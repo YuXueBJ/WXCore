@@ -22,11 +22,13 @@
     
     [appcontext createDatabaseFiled];
     
+    
+    
     NSArray * dataList = [self testArray];
     for (int i = 0 ; i<[dataList count]; i++) {
         NSDictionary * dic = [dataList objectAtIndex:i];
         HomeDataObject * homeObjc = [[HomeDataObject alloc] initWithJson:dic];
-        [appcontext.homeDataSave saveHomeDataList:homeObjc];
+        [appcontext.homeDataSave updatebHomeData:homeObjc];
     }
     NSArray * dbList = [appcontext.homeDataSave getAllHomeListData];
     
