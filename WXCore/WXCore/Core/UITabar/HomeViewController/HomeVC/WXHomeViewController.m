@@ -42,8 +42,9 @@
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     self.tableView.frame = CGRectMake(0, 65, self.view.width, self.view.height-65);
     
+
     [self.dataSourceArray addObjectsFromArray:[self testRequstData]];
-    
+    [self requestData:0];
 }
 
 - (void)didReceiveMemoryWarning {

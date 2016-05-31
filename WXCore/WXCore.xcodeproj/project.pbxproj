@@ -64,6 +64,9 @@
 		E4DEF93F1BE5C15A0025F1A8 /* ColleagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEF93E1BE5C15A0025F1A8 /* ColleagueViewController.m */; };
 		E4DEF9441BE5C8A80025F1A8 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4DEF9461BE5C8A80025F1A8 /* Localization.strings */; };
 		E4DEF94A1BE5C9A10025F1A8 /* ColleagueDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEF9491BE5C9A10025F1A8 /* ColleagueDataSource.m */; };
+		E4DEF9511BE5D54F0025F1A8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DEF94F1BE5D54F0025F1A8 /* AddressBook.framework */; };
+		E4DEF9521BE5D54F0025F1A8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DEF9501BE5D54F0025F1A8 /* AddressBookUI.framework */; };
+		E4DEF9551BE5D9140025F1A8 /* AddressBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEF9541BE5D9140025F1A8 /* AddressBookModel.m */; };
 		E4F11DAF1BC544CB00840BE1 /* ClickedBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F11DAE1BC544CB00840BE1 /* ClickedBlockViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -185,6 +188,10 @@
 		E4DEF9471BE5C8AB0025F1A8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
 		E4DEF9481BE5C9A10025F1A8 /* ColleagueDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColleagueDataSource.h; sourceTree = "<group>"; };
 		E4DEF9491BE5C9A10025F1A8 /* ColleagueDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColleagueDataSource.m; sourceTree = "<group>"; };
+		E4DEF94F1BE5D54F0025F1A8 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E4DEF9501BE5D54F0025F1A8 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		E4DEF9531BE5D9140025F1A8 /* AddressBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookModel.h; sourceTree = "<group>"; };
+		E4DEF9541BE5D9140025F1A8 /* AddressBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookModel.m; sourceTree = "<group>"; };
 		E4F11DAD1BC544CB00840BE1 /* ClickedBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickedBlockViewController.h; sourceTree = "<group>"; };
 		E4F11DAE1BC544CB00840BE1 /* ClickedBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickedBlockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,6 +201,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DEF9511BE5D54F0025F1A8 /* AddressBook.framework in Frameworks */,
+				E4DEF9521BE5D54F0025F1A8 /* AddressBookUI.framework in Frameworks */,
 				E4D2A2A81BDB3E5300499CCF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +269,7 @@
 		E48DAE5D1B426D430080E009 = {
 			isa = PBXGroup;
 			children = (
-				E4D2A2A71BDB3E5300499CCF /* QuartzCore.framework */,
+				E4DEF94E1BE5D5440025F1A8 /* Frameworks */,
 				E48DAE681B426D430080E009 /* WXCore */,
 				E48DAE851B426D430080E009 /* WXCoreTests */,
 				E48DAE671B426D430080E009 /* Products */,
@@ -515,6 +524,8 @@
 				E4DEF93E1BE5C15A0025F1A8 /* ColleagueViewController.m */,
 				E4DEF9481BE5C9A10025F1A8 /* ColleagueDataSource.h */,
 				E4DEF9491BE5C9A10025F1A8 /* ColleagueDataSource.m */,
+				E4DEF9531BE5D9140025F1A8 /* AddressBookModel.h */,
+				E4DEF9541BE5D9140025F1A8 /* AddressBookModel.m */,
 			);
 			path = ColleagueVC;
 			sourceTree = "<group>";
@@ -534,6 +545,16 @@
 				E4DEF9331BE5C1280025F1A8 /* WXHomeTableViewObject.m */,
 			);
 			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		E4DEF94E1BE5D5440025F1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4DEF94F1BE5D54F0025F1A8 /* AddressBook.framework */,
+				E4DEF9501BE5D54F0025F1A8 /* AddressBookUI.framework */,
+				E4D2A2A71BDB3E5300499CCF /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -686,6 +707,7 @@
 				E4F11DAF1BC544CB00840BE1 /* ClickedBlockViewController.m in Sources */,
 				E4D2A2C51BDB3F7400499CCF /* DACircularProgressView.m in Sources */,
 				E48336BC1B7469B800288616 /* UIButton+Blcok.m in Sources */,
+				E4DEF9551BE5D9140025F1A8 /* AddressBookModel.m in Sources */,
 				E481EC9D1BD7E6C800AF8215 /* WXUserInfoViewcontroller.m in Sources */,
 				E4DEF93B1BE5C1280025F1A8 /* WXHomeViewController.m in Sources */,
 				E48DAE721B426D430080E009 /* WXCore.xcdatamodeld in Sources */,
