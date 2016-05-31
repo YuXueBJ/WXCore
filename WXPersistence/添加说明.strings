@@ -1,0 +1,20 @@
+/* 
+  添加说明.strings
+  WXPersistence
+
+  Created by 朱洪伟 on 15/12/12.
+  Copyright © 2015年 朱洪伟. All rights reserved.
+*/
+
+/**
+ Build Setting  ：
+ 
+ Header Search Paths ===>"$(SRCROOT)/WXPersistence”/**
+ Other linker Flags ===> $(OTHER_LDFLAGS) -ObjC
+ 
+ Build Phases
+ 
+ Target Dependencies  添加静态 .a
+ Link Binary With Libraries  添加对应的库文件 和静态.a
+ 
+ */
