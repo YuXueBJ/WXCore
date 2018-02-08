@@ -1,0 +1,27 @@
+{
+  "name": "WXCore",
+  "version": "1.0.0",
+  "summary": "A short description of WXCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://git.oschina.net/zhwios/WXCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "朱洪伟": "zhuhw@xiaoshouyi.com"
+  },
+  "source": {
+    "git": "https://git.oschina.net/zhwios/WXCore.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WXCore/Classes/**/*",
+  "resource_bundles": {
+    "WXCore": [
+      "WXCore/Assets/*.png"
+    ]
+  }
+}

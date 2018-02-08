@@ -1,0 +1,6 @@
+framework module WXCore {
+  umbrella header "WXCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3BBD8F4E6E4E9B4E253E72B652905C42F6A748C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "788E4E6747A02BE3FC41B16DB17F47BFA544F047" : 0,
+    "3BBD8F4E6E4E9B4E253E72B652905C42F6A748C2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "229135AC-A910-49FB-A5EA-88C5DC5A88F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "788E4E6747A02BE3FC41B16DB17F47BFA544F047" : "..",
+    "3BBD8F4E6E4E9B4E253E72B652905C42F6A748C2" : "WXCore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WXCore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/WXCore.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/zhwios\/WXCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3BBD8F4E6E4E9B4E253E72B652905C42F6A748C2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/zhwios\/oc_project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "788E4E6747A02BE3FC41B16DB17F47BFA544F047"
+    }
+  ]
+}

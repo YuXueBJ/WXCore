@@ -1,0 +1,6 @@
+framework module Pods_WXCore_Example {
+  umbrella header "Pods-WXCore_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

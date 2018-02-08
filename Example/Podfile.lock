@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - WXCore (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - WXCore (from `../`)
+
+EXTERNAL SOURCES:
+  WXCore:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  WXCore: d8d8746d0b232494e4a9f442d7884103a1b1f28b
+
+PODFILE CHECKSUM: b923211bf8b94ceb04bed720a18eaee8aa49f30b
+
+COCOAPODS: 1.0.1
