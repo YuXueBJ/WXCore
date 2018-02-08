@@ -5,7 +5,15 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.2):
     - FBSnapshotTestCase/Core
   - Kiwi (2.4.0)
-  - WXCore (1.0.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - WXCore (1.0.9):
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage (~> 4.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -14,13 +22,16 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   WXCore:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  WXCore: d8d8746d0b232494e4a9f442d7884103a1b1f28b
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  WXCore: 0dce9ea754e47857fe4b003843c8d24a5025d324
 
-PODFILE CHECKSUM: b923211bf8b94ceb04bed720a18eaee8aa49f30b
+PODFILE CHECKSUM: 2bd53c5339fa5e4c6e5042f00cd6b45ebc0ceac3
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0

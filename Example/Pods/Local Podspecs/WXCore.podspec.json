@@ -1,8 +1,8 @@
 {
   "name": "WXCore",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "summary": "A short description of WXCore.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "项目基础库 1:对表格的封装\n         2:对数据库的格式化封装",
   "homepage": "https://git.oschina.net/zhwios/WXCore",
   "license": {
     "type": "MIT",
@@ -13,15 +13,31 @@
   },
   "source": {
     "git": "https://git.oschina.net/zhwios/WXCore.git",
-    "tag": "1.0.0"
+    "tag": "1.0.9"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WXCore/Classes/**/*",
+  "source_files": "WXCore/Classes/**/*.{h,m}",
+  "resources": "WXCore/Assets/WXTableViewLoadMoreCell.xib",
   "resource_bundles": {
     "WXCore": [
-      "WXCore/Assets/*.png"
+      "WXCore/Assets/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+      "~> 4.0"
     ]
   }
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "51C48CCECBF370605688A8BD671A08F2"
+               BlueprintIdentifier = "6D679C3C9374E6124CE3173ABB5789CE"
                BuildableName = "Pods_WXCore_Tests.framework"
                BlueprintName = "Pods-WXCore_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "51C48CCECBF370605688A8BD671A08F2"
+            BlueprintIdentifier = "6D679C3C9374E6124CE3173ABB5789CE"
             BuildableName = "Pods_WXCore_Tests.framework"
             BlueprintName = "Pods-WXCore_Tests"
             ReferencedContainer = "container:Pods.xcodeproj">

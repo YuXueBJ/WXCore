@@ -14,12 +14,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-WXCore_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-WXCore_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -36,37 +51,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>0BD108EA0065CC2BE29C690ED6A0887E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>51C48CCECBF370605688A8BD671A08F2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5DB46EA499F9A5E22765121102FCC34B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5F7F27624E3FB932CB8B061152F163B4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C08E909BC2C0B20B2166B280D826CFF7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C474D06E3F5218EC09274272DB8244A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

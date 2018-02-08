@@ -42,4 +42,5 @@ Pod::Spec.new do |s|
     s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'MJRefresh'
     s.dependency "MBProgressHUD"
+    s.dependency 'SDWebImage', '~> 4.0'
 end
