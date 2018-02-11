@@ -85,7 +85,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "Default-i6@2x.png",
+      "filename" : "Default-i6@2x.jpg",
       "extent" : "full-screen",
       "scale" : "2x"
     },
@@ -114,7 +114,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "Default-i6@2x-1.png",
+      "filename" : "Default-i6@3x.jpg",
       "extent" : "full-screen",
       "scale" : "2x"
     }

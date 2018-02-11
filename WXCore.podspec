@@ -26,14 +26,14 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/YuXueBJ/WXCore'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '朱洪伟' => 'zhuhw@xiaoshouyi.com' }
+  s.author           = { '朱洪伟' => 'zhwios@126.com' }
   s.source           = { :git => 'https://github.com/YuXueBJ/WXCore.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WXCore/Classes/**/*.{h,m}'
-  s.resources = 'WXCore/Assets/WXTableViewLoadMoreCell.xib'
+  #s.resources = 'WXCore/Assets/WXTableViewLoadMoreCell.xib'
 
   s.resource_bundles = {
     'WXCore' => ['WXCore/Assets/*']
