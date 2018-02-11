@@ -24,13 +24,13 @@
     self.dataSource = [[WXHomeViewDataSource alloc] init];
     
     self.tableView.backgroundColor = [UIColor whiteColor];
-    self.tableView.showsPullToRefresh = YES;
+    self.showsPullToRefresh = YES;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.emptyView.userInteractionEnabled = NO;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     self.tableView.frame = CGRectMake(0, 65, self.view.width, self.view.height-65);
     [self.dataSourceArray addObjectsFromArray:[self testRequstData]];
-    [self showError:YES];
+    [self showEmpty:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,7 +51,7 @@
     }
     [self showEmpty:NO];
     [self showError:NO];
-    [self startRefreshAction];
+//    [self startRefreshAction];
     self.loadingData = YES;
 
     [self requestData:0];
@@ -84,14 +84,11 @@
     }else{
         self.requestPage++;
     }
-    
-    
     //RequestSuccess
     if (type==0) {
         [(WXHomeViewDataSource*)self.dataSource reloadHomeTableViewData:self.dataSourceArray];
         [self.tableView reloadData];
     }else{
-        
         [self performSelector:@selector(reloadMoreData) withObject:nil afterDelay:3];
     }
     //}

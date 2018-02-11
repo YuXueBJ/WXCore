@@ -9,26 +9,21 @@
 
 #import "WXCode.h"
 #import "WXTableViewLoadMoreCell.h"
-
-static const CGFloat kMoreButtonMargin = 130;
+#import "Masonry.h"
 
 @interface WXTableViewLoadMoreCell()
-
-- (void)buildLoadingAnimationView;
-- (void)buildTitleLabel;
 
 @end
 @implementation WXTableViewLoadMoreCell
 
 @synthesize animating = _animating;
-//@synthesize refreshView = _refreshView;
 
 + (CGFloat)tableView:(UITableView*)tableView rowHeightForObject:(id)object {
     return  Load_More_Cell_ROW_HEIGHT * 1;
 }
 + (BOOL)isNibOrCored
 {
-    return YES;
+    return NO;
 }
 + (BOOL)isCacheCell{
     return YES;
@@ -37,23 +32,19 @@ static const CGFloat kMoreButtonMargin = 130;
 {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         _animating = NO;
-        
-//        [self buildTitleLabel];
-        [self buildLoadingAnimationView];
+//        [self buildLoadingAnimationView];
         
         self.selectionStyle = UITableViewCellSelectionStyleBlue;
         self.accessoryType = UITableViewCellAccessoryNone;
+        
+        [self.contentView addSubview:self.loadingAnimationView];
+        [self.contentView addSubview:self.moreTextLabel];
     }
     return self;
 }
 - (void)awakeFromNib{
     [super awakeFromNib];
     _animating = NO;
-    
-//    [self buildTitleLabel];
-    [self buildLoadingAnimationView];
-    self.selectionStyle = UITableViewCellSelectionStyleNone;
-    self.accessoryType = UITableViewCellAccessoryNone;
 }
 - (void)setAnimating:(BOOL)animating {
     _animating = animating;
@@ -88,39 +79,33 @@ static const CGFloat kMoreButtonMargin = 130;
 #pragma mark- Override
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
-    _loadingAnimationView.left	= self.contentView.width - (_loadingAnimationView.width + 6);
-    _loadingAnimationView.top	= floor(self.contentView.height / 2 - _loadingAnimationView.height / 2);
-    
-    _titleLabel.frame = CGRectMake(0,
-                                   _titleLabel.top,
-                                   self.contentView.width,
-                                   _titleLabel.height);
-    
 }
 
-- (void)setObject:(id)object
-{
+- (void)setObject:(id)object{
+    
     if (_object != object) {
         [super setObject:object];
-        
         if (_object) {
             WXTableViewLoadMoreItem *item = _object;
-            _titleLabel.text	= @"加载更多...";
+            self.moreTextLabel.text	= @"加载更多...";
             self.animating		= item.isLoading;
             [self.contentView setBackgroundColor:[UIColor clearColor]];
-            
         }
+        [self.moreTextLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.equalTo(self.mas_centerX);
+            make.width.equalTo(@100);
+            make.height.equalTo(self.mas_height);
+        }];
+        [self.loadingAnimationView mas_makeConstraints:^(MASConstraintMaker *make) {
+             make.right.equalTo(self.moreTextLabel.mas_left).offset(-10);
+             make.width.equalTo(@20);
+             make.height.equalTo(@20);
+            make.centerY.equalTo(self.mas_centerY);
+        }];
     }
 }
 
 #pragma mark- UI
-- (void)buildLoadingAnimationView
-{
-//    _loadingAnimationView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-//    [self.contentView addSubview:_loadingAnimationView];
-}
-
 - (void)resetLoadingAnimationView:(UIActivityIndicatorView*)loadingView
 {
     if (_loadingAnimationView != nil) {
@@ -129,21 +114,6 @@ static const CGFloat kMoreButtonMargin = 130;
     }
     _loadingAnimationView = loadingView;
     [self.contentView addSubview:_loadingAnimationView];
-}
-
-- (void)buildTitleLabel
-{
-//    _titleLabel = [[UILabel alloc] initWithFrame:self.contentView.bounds];
-//    _titleLabel.backgroundColor = [UIColor clearColor];
-//    _titleLabel.autoresizingMask			= UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//    _titleLabel.font						= [UIFont boldSystemFontOfSize:15];
-//    _titleLabel.textColor					= kDefaultHomeTextColor;
-//    _titleLabel.highlightedTextColor		= [UIColor clearColor];
-//    _titleLabel.textAlignment				= NSTextAlignmentCenter;
-//    _titleLabel.lineBreakMode				= NSLineBreakByTruncatingTail;
-//    _titleLabel.adjustsFontSizeToFitWidth	= YES;
-//    _titleLabel.text = @"加载更多...";
-//    [self.contentView addSubview:_titleLabel];
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
@@ -155,13 +125,22 @@ static const CGFloat kMoreButtonMargin = 130;
     
 }
 - (void)drawRect:(CGRect)rect {
-    
-    //    //分割线
+        //分割线
         UIColor *lineColor = [RGBCOLOR(207, 207,207) colorWithAlphaComponent:0.3];
         [lineColor setFill];
-        
         CGContextRef context = UIGraphicsGetCurrentContext();
         CGContextFillRect(context, CGRectMake(10, self.height - 1, self.width-20, 1));
 }
-
+- (UIActivityIndicatorView*)loadingAnimationView{
+    if (!_loadingAnimationView) {
+        _loadingAnimationView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    }
+    return _loadingAnimationView;
+}
+- (UILabel*)moreTextLabel{
+    if (!_moreTextLabel) {
+        _moreTextLabel = [ViewCreatorHelper createLabelWithTitle:nil font:[UIFont systemFontOfSize:15.0f] frame:CGRectZero textColor:RGBCOLOR(51, 51, 51) textAlignment:NSTextAlignmentLeft];
+    }
+    return _moreTextLabel;
+}
 @end

@@ -6,7 +6,6 @@
 //  Copyright © 2015年 Zhu Hong Wei. All rights reserved.
 //
 
-#import "WXBaseTableView.h"
 #import "WXCode.h"
 
 @class WXHomeTableViewObject;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0DE42BD84840C9856A8F1482 /* Pods_WXCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D70FC6F94C66A2EC10AF923 /* Pods_WXCore_Example.framework */; };
 		12961CC99A1D87791AEEFFF9 /* Pods_WXCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4C3EB32692CC6CEE4178E0 /* Pods_WXCore_Tests.framework */; };
+		5B41833B133AE5A0A2BBC89B /* Pods_WXCore_Example_WXCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62AE1A79D59A9E46ACBF41E /* Pods_WXCore_Example_WXCore_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -63,9 +64,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6D938E0EB601BD142947EB89 /* WXCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WXCore.podspec; path = ../WXCore.podspec; sourceTree = "<group>"; };
+		754D83AE3C12953F85F594EB /* Pods-WXCore_Example-WXCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCore_Example-WXCore_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXCore_Example-WXCore_Tests/Pods-WXCore_Example-WXCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9D8CC52DE21D4D38F4E7397D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A950799470C1E9B6CE1E3DC8 /* Pods-WXCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXCore_Tests/Pods-WXCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C307F99EE5B75E0C613ED710 /* Pods-WXCore_Example-WXCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCore_Example-WXCore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXCore_Example-WXCore_Tests/Pods-WXCore_Example-WXCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D90566C4588B33DAAF59BA9B /* Pods-WXCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXCore_Example/Pods-WXCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E4A5C5F31D799B7700AC3636 /* WXHomeViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHomeViewDataSource.h; sourceTree = "<group>"; };
 		E4A5C5F41D799B7700AC3636 /* WXHomeViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHomeViewDataSource.m; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 		E4A5C5FA1D799B7700AC3636 /* WXHomeTableViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHomeTableViewObject.m; sourceTree = "<group>"; };
 		E797313C8A605B57B9485DF3 /* Pods-WXCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXCore_Example/Pods-WXCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EEBF28DE3A59A66AAB292F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F62AE1A79D59A9E46ACBF41E /* Pods_WXCore_Example_WXCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXCore_Example_WXCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				12961CC99A1D87791AEEFFF9 /* Pods_WXCore_Tests.framework in Frameworks */,
+				5B41833B133AE5A0A2BBC89B /* Pods_WXCore_Example_WXCore_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,8 @@
 				D90566C4588B33DAAF59BA9B /* Pods-WXCore_Example.release.xcconfig */,
 				A950799470C1E9B6CE1E3DC8 /* Pods-WXCore_Tests.debug.xcconfig */,
 				45222D49868588E837916B0E /* Pods-WXCore_Tests.release.xcconfig */,
+				C307F99EE5B75E0C613ED710 /* Pods-WXCore_Example-WXCore_Tests.debug.xcconfig */,
+				754D83AE3C12953F85F594EB /* Pods-WXCore_Example-WXCore_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -146,6 +153,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				4D70FC6F94C66A2EC10AF923 /* Pods_WXCore_Example.framework */,
 				0E4C3EB32692CC6CEE4178E0 /* Pods_WXCore_Tests.framework */,
+				F62AE1A79D59A9E46ACBF41E /* Pods_WXCore_Example_WXCore_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -325,7 +333,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXCore_Tests/Pods-WXCore_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXCore_Example-WXCore_Tests/Pods-WXCore_Example-WXCore_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0B99CCAE92E95ED9A561CCD8 /* [CP] Check Pods Manifest.lock */ = {
@@ -343,7 +351,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		56080B32138F62163A5CA3E3 /* [CP] Copy Pods Resources */ = {
@@ -400,7 +408,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B282CF1F574E15893C56EEB1 /* [CP] Embed Pods Frameworks */ = {
@@ -420,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXCore_Tests/Pods-WXCore_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXCore_Example-WXCore_Tests/Pods-WXCore_Example-WXCore_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -585,7 +593,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A950799470C1E9B6CE1E3DC8 /* Pods-WXCore_Tests.debug.xcconfig */;
+			baseConfigurationReference = C307F99EE5B75E0C613ED710 /* Pods-WXCore_Example-WXCore_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -609,7 +617,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45222D49868588E837916B0E /* Pods-WXCore_Tests.release.xcconfig */;
+			baseConfigurationReference = 754D83AE3C12953F85F594EB /* Pods-WXCore_Example-WXCore_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

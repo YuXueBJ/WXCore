@@ -3,9 +3,6 @@ use_frameworks!
 target 'WXCore_Example' do
   pod 'WXCore', :path => '../'
     target 'WXCore_Tests' do
-    inherit! :search_paths
-
-    pod 'Kiwi'
-    pod 'FBSnapshotTestCase'
   end
 end
+

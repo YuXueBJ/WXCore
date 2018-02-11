@@ -26,13 +26,8 @@
     if (item.cellHeight) {
         return item.cellHeight;
     }
-    //直播封面高度
-//    CGFloat coverHeight = SCREEN_WIDTH/2;
-    
-    //主播信息区域高度
+    //Cell区域高度
     CGFloat infoAreaHeight = 50;
-    
-//    item.cellHeight = coverHeight + infoAreaHeight + 10;
     
     return infoAreaHeight;
 }
@@ -64,7 +59,13 @@
     self.subTitleLable.text = data.subTitle;
 }
 - (void)awakeFromNib {
-    // Initialization code
+    [super awakeFromNib];
+}
++ (BOOL)isNibOrCored{
+    return NO;
+}
++ (BOOL)isCacheCell{
+    return NO;
 }
 -(void)layoutSubviews
 {
@@ -75,7 +76,6 @@
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
     // Configure the view for the selected state
 }
 

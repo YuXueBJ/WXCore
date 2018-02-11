@@ -8,16 +8,12 @@
 
 #import "WXTableViewCell.h"
 
-@interface WXTableViewLoadMoreCell : WXTableViewCell
-{
-    
+@interface WXTableViewLoadMoreCell : WXTableViewCell{
     BOOL					_animating;
-//    XYPullToRefreshImageview *_refreshView;
 }
 @property (nonatomic, assign) BOOL animating;
-//@property (nonatomic, strong) XYPullToRefreshImageview *refreshView;
-@property (nonatomic, strong) IBOutlet UIActivityIndicatorView * loadingAnimationView;
-@property (unsafe_unretained, nonatomic) IBOutlet UILabel *titleLabel;
+@property (nonatomic, strong)  UIActivityIndicatorView * loadingAnimationView;
+@property (nonatomic, strong)  UILabel * moreTextLabel;
 
 
 - (void)resetLoadingAnimationView:(UIActivityIndicatorView*)loadingView;

@@ -8,16 +8,9 @@
 
 #import "WXErrorView.h"
 #import "WXCode.h"
-
-static const CGFloat kVPadding1 = 30;
-static const CGFloat kVPadding2 = 20;
-static const CGFloat kHPadding  = 10;
-
-
-
+#import "Masonry.h"
 
 @implementation WXErrorView
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (id)initWithTitle:(NSString*)title subtitle:(NSString*)subtitle image:(UIImage*)image
@@ -70,7 +63,24 @@ static const CGFloat kHPadding  = 10;
         _subtitleView.numberOfLines = 0;
         [self addSubview:_subtitleView];
         
-        
+        [_imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.equalTo(self.mas_centerX);
+            make.width.equalTo(@100);
+            make.height.equalTo(@100);
+            make.centerY.equalTo(self.mas_centerY).offset(-160);
+        }];
+        [_subtitleView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.width.equalTo(self.mas_width);
+            make.height.equalTo(@30);
+            make.top.equalTo(_imageView.mas_bottom).offset(0);
+            make.centerX.equalTo(self.mas_centerX);
+        }];
+        [_titleButton mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.width.equalTo(self.mas_width);
+            make.height.equalTo(@30);
+            make.top.equalTo(_subtitleView.mas_bottom).offset(10);
+            make.centerX.equalTo(self.mas_centerX);
+        }];
         
     }
     
@@ -96,60 +106,6 @@ static const CGFloat kHPadding  = 10;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 #pragma mark UIView
-///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)layoutSubviews {
-    _subtitleView.size = [_subtitleView sizeThatFits:CGSizeMake(self.width - kHPadding*2, 0)];
-    //    [_titleButton sizeToFit];
-    [_imageView sizeToFit];
-    CGFloat maxHeight = _imageView.height + _titleButton.height + _subtitleView.height
-    + kVPadding1 + kVPadding2;
-    BOOL canShowImage = _imageView.image && self.height > maxHeight;
-    
-    CGFloat totalHeight = 0;
-    
-    if (canShowImage) {
-        totalHeight += _imageView.height;
-    }
-    if (_titleButton.currentTitle.length) {
-        totalHeight += (totalHeight ? kVPadding1 : 0) + _titleButton.height;
-    }
-    if (_subtitleView.text.length) {
-        totalHeight += (totalHeight ? kVPadding2 : 0) + _subtitleView.height;
-    }
-    
-    //    CGFloat top = floor(self.height/2 - totalHeight/2) - 50;
-    CGFloat top = floor(self.height/2 - totalHeight/2)-20;
-    if (!([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)) {
-        top+=20;
-    }
-    
-    if (canShowImage) {
-        _imageView.origin = CGPointMake(floor(self.width/2 - _imageView.width/2), top);
-        _imageView.hidden = NO;
-        top += _imageView.height + kVPadding1;
-        
-    } else {
-        _imageView.hidden = YES;
-    }
-    if (_titleButton.currentTitle.length) {
-        CGFloat anchorWidth = self.width-20.0f;
-        CGSize titleViewSize = [_titleButton.currentTitle measureTextSize:_titleButton.titleLabel.font desWidth:self.height/2];
-//        [_titleButton.currentTitle sizeWithFont:_titleButton.titleLabel.font
-//                                                     constrainedToSize:CGSizeMake(anchorWidth, self.height/2)
-//                                                         lineBreakMode:NSLineBreakByWordWrapping];
-        titleViewSize.height += 10.0f;
-        if (titleViewSize.width < anchorWidth) {
-            titleViewSize.width = anchorWidth;
-        }
-        _titleButton.size = titleViewSize;
-        _titleButton.origin = CGPointMake(floor(self.width/2 - _titleButton.width/2), top-20);
-        top += _titleButton.height + kVPadding2;
-    }
-    if (_subtitleView.text.length) {
-        _subtitleView.origin = CGPointMake(floor(self.width/2 - _subtitleView.width/2), top);
-    }
-}
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////

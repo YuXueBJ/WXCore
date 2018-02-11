@@ -1,6 +1,0 @@
-framework module Pods_WXCore_Tests {
-  umbrella header "Pods-WXCore_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -58,7 +58,7 @@
     return YES;
 }
 - (NSString*)subtitleForEmpty {
-    return @"数据加载为空。。。";
+    return @"没有数据...";
 }
 - (UIImage*)imageForEmpty {
     return [UIImage imageNamed:@"coffee_cup_empty"];
