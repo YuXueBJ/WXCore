@@ -1,8 +1,8 @@
 {
   "name": "WXCore",
   "version": "1.0.0",
-  "summary": "A short description of WXCore.",
-  "description": "项目基础库 1:对表格的封装\n         2:对数据库的格式化封装",
+  "summary": "表格的封装库 WXCore.",
+  "description": "*   项目基础库 1:对表格的封装\n             2:对数据库的格式化封装",
   "homepage": "https://github.com/YuXueBJ/WXCore",
   "license": {
     "type": "MIT",
@@ -18,12 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
+  "requires_arc": true,
   "source_files": "WXCore/Classes/**/*.{h,m}",
-  "resource_bundles": {
-    "WXCore": [
-      "WXCore/Assets/*"
-    ]
-  },
+  "resources": "WXCore/Assets/*.{png,xib}",
   "frameworks": [
     "UIKit",
     "MapKit"
@@ -36,7 +33,7 @@
 
     ],
     "SDWebImage": [
-      "~> 4.0"
+
     ],
     "Masonry": [
 
