@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'MJRefresh'
-    s.dependency "MBProgressHUD"
-    s.dependency 'SDWebImage', '~> 4.0'
+    s.dependency 'MBProgressHUD',
+    s.dependency 'SDWebImage',
     s.dependency 'Masonry'
 end

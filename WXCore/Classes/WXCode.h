@@ -33,9 +33,6 @@
 
 #import "WXErrorView.h"
 #import "MJRefresh.h"
-
-//#import "XYPullToRefreshImageview.h"
-
 #import "ViewCreatorHelper.h"
 #import "WXImage.h"
 

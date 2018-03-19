@@ -10,7 +10,7 @@
 
 static CGFloat Http_ErrorMsgDisplay_Interval = 15.f;
 @interface LoadingView : UIView
-@property (nonatomic, strong) UIImageView* loadingImage;
+@property (nonatomic, strong) UIImageView * loadingImage;
 @property (nonatomic, strong) CABasicAnimation* rotationAnimation;
 - (void)startAnimating;
 @end
@@ -64,9 +64,9 @@ static CGFloat Http_ErrorMsgDisplay_Interval = 15.f;
 + (void)showAlert:(NSString*)msg showVc:(UIViewController*)vc handler:(void (^ __nullable)(UIAlertAction *action))handler;
 
 +(void)showAlertMessage:(NSString *)message;
-+(void)showAlertMessage:(NSString *)message  delegate:(id) delegate okButtonTitle:(NSString *)title inView:(UIView *)view;
++(void)showAlertMessage:(NSString *)message  delegate:(id) delegate okButtonTitle:(NSString *)title inView_Nullable_Nullable:(UIView *)view;
 +(void)showAlertAttributeMessage:(NSAttributedString *)attributeMessage;
 
-+(void)showAlertAttributeMessage:(NSAttributedString *)attributeMessage delegate:(id) delegate okButtonTitle:(NSString *)title inView:(UIView *)view;
++(void)showAlertAttributeMessage:(NSAttributedString *)attributeMessage delegate:(id) delegate okButtonTitle:(NSString *)title inView_Nullable:(UIView *)view;
 
 @end

@@ -1,6 +1,6 @@
 {
   "name": "WXCore",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "summary": "A short description of WXCore.",
   "description": "项目基础库 1:对表格的封装\n         2:对数据库的格式化封装",
   "homepage": "https://github.com/YuXueBJ/WXCore",
@@ -9,17 +9,16 @@
     "file": "LICENSE"
   },
   "authors": {
-    "朱洪伟": "zhuhw@xiaoshouyi.com"
+    "朱洪伟": "zhwios@126.com"
   },
   "source": {
     "git": "https://github.com/YuXueBJ/WXCore.git",
-    "tag": "1.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "WXCore/Classes/**/*.{h,m}",
-  "resources": "WXCore/Assets/WXTableViewLoadMoreCell.xib",
   "resource_bundles": {
     "WXCore": [
       "WXCore/Assets/*"

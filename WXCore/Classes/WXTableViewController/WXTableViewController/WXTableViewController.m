@@ -22,9 +22,11 @@
 {
         UIView *_tableviewBackview;
 }
+@property (nonatomic,strong)MJRefreshAutoNormalFooter * installFooter;
+@property (nonatomic,strong)MJRefreshNormalHeader * installHeader;
 @property (nonatomic,strong)UIRefreshControl * refreshControl;
-- (MJRefreshNormalHeader*)installHeader;
-- (MJRefreshAutoNormalFooter*)installFooter;
+//- (MJRefreshNormalHeader*)installHeader;
+//- (MJRefreshAutoNormalFooter*)installFooter;
 @end
 
 @implementation WXTableViewController
@@ -855,36 +857,26 @@ accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath {
 
 - (MJRefreshNormalHeader*)installHeader{
     
-    //    [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-    //        //        //Call this Block When enter the refresh status automatically
-    //        //    }]
-    
-    MJRefreshNormalHeader * header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(pullToRefreshAction)];
-    
-    // Enter the refresh status immediately
-    [self.tableView.mj_header beginRefreshing];
-    
-    //    [header setTitle:@"下拉开始刷新" forState:MJRefreshStateIdle];
-    //
-    //    [header setTitle:@"松开开始刷新" forState:MJRefreshStatePulling];
-    //
-    //    [header setTitle:@"数据加载中 ..." forState:MJRefreshStateRefreshing];
-    
-    // 设置字体
-    header.stateLabel.font = [UIFont systemFontOfSize:15];
-    
-    header.lastUpdatedTimeLabel.font = [UIFont systemFontOfSize:12];
-    
-    header.lastUpdatedTimeLabel.textColor = [UIColor darkGrayColor];
-    return header;
+    if (!_installHeader) {
+        _installHeader= [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(pullToRefreshAction)];
+        [self.tableView.mj_header beginRefreshing];
+        // 设置字体
+        _installHeader.stateLabel.font = [UIFont systemFontOfSize:15];
+        
+        _installHeader.lastUpdatedTimeLabel.font = [UIFont systemFontOfSize:12];
+        
+        _installHeader.lastUpdatedTimeLabel.textColor = [UIColor darkGrayColor];
+    }
+    return _installHeader;
 }
 - (MJRefreshAutoNormalFooter*)installFooter
 {
-    MJRefreshAutoNormalFooter * footerView =  [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreAction)];
-    
-    [footerView setTitle:@"" forState:MJRefreshStateIdle];
-    [footerView setTitle:@"数据加载中 ..." forState:MJRefreshStateRefreshing];
-    
-    return footerView;
+    if (!_installFooter) {
+        _installFooter=  [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreAction)];
+        
+        [_installFooter setTitle:@"" forState:MJRefreshStateIdle];
+        [_installFooter setTitle:@"数据加载中 ..." forState:MJRefreshStateRefreshing];
+    }
+    return _installFooter;
 }
 @end
