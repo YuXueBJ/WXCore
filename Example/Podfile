@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'WXCore_Example' do
+  pod 'WXCore', :path => '../'
+    target 'WXCore-Tests' do
+  end
+
+end
+
