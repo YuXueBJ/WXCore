@@ -8,7 +8,7 @@
 
 #import "WXHomeViewController.h"
 #import "WXHomeViewDataSource.h"
-#import "WSPersistence.h"
+//#import "WSPersistence.h"
 
 @interface WXHomeViewController ()
 @property (nonatomic,assign)NSInteger requestPage;

@@ -270,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				E4DEF94E1BE5D5440025F1A8 /* Frameworks */,
+				E4D2A2A71BDB3E5300499CCF /* QuartzCore.framework */,
 				E48DAE681B426D430080E009 /* WXCore */,
 				E48DAE851B426D430080E009 /* WXCoreTests */,
 				E48DAE671B426D430080E009 /* Products */,
@@ -552,7 +553,6 @@
 			children = (
 				E4DEF94F1BE5D54F0025F1A8 /* AddressBook.framework */,
 				E4DEF9501BE5D54F0025F1A8 /* AddressBookUI.framework */,
-				E4D2A2A71BDB3E5300499CCF /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -856,6 +856,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WXCore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/WXPersistence\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maodou.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -867,6 +872,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WXCore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/WXPersistence\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maodou.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

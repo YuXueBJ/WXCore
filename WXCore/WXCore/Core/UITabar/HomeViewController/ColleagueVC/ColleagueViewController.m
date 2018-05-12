@@ -328,7 +328,7 @@ void ContactsChangeCallback (ABAddressBookRef addressBook,
                 nameString = [NSString stringWithFormat:@"%@ %@", nameString, lastNameString];
             }
         }
-        addressBook.name = nameString;
+//        addressBook.name = nameString;
         addressBook.recordID = (int)ABRecordGetRecordID(person);;
         
         ABPropertyID multiProperties[] = {
